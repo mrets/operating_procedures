@@ -2,7 +2,7 @@ Table of Contents
 
 [Section 1: Introduction](section1)
 
-Section 2: Privacy and Security
+[Section 2: Privacy and Security](section2.md)
 
 Section 3: Establishing an M-RETS Organization
 
