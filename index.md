@@ -1,6 +1,6 @@
 Table of Contents
 
-[Section 1: Introduction](section1)
+[Section 1: Introduction](section1.md)
 
 [Section 2: Privacy and Security](section2.md)
 
