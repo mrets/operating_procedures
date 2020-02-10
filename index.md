@@ -6,17 +6,17 @@ Table of Contents
 
 Section 3: Establishing an M-RETS Organization
 
-Section 3.1: Billing Information
+[Section 3.1: Billing Information](section3.1.md)
 
-Section 3.2: Inactivating an Organization
+[Section 3.2: Inactivating an Organization](section3.2.md)
 
-Section 4: The Tracking System
+[Section 4: The Tracking System](section4.md)
 
-Section 4.1: Users
+[Section 4.1: Users](section4.1.md)
 
-Section 4.1.1: User Permissions
+[Section 4.1.1: User Permissions](section4.1.1.md)
 
-Section 4.1.2: Notification Settings
+[Section 4.1.2: Notification Settings](section4.1.2.md)
 
 Section 4.1.4: Inactivating Users
 
