@@ -124,7 +124,7 @@ Table of Contents
 
 [Section 5.2: WI Non-Bankable](section5.2.md)
 
-[Section 5.3: RRC Adjusted Quantity]section5.3.md)
+[Section 5.3: RRC Adjusted Quantity](section5.3.md)
 
 [Section 6: Public Reports](section6.md)
 
