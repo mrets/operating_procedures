@@ -6,7 +6,4 @@ It is the User&#39;s requirement to confirm that they represent and warrant to M
 
 M-RETS requires that Organizations review and accept all Generator data by January 31
 
-# st
-. Failure to complete the annual review for each Generator in an Organization by January 31
-# st
- each year will result in the loss of access to the Organization until a User with proper permissions reviews and confirms all of the data for every Generator in the Organization.
+**Failure to complete the annual review for each Generator in an Organization by January 31 each year will result in the loss of access to the Organization until a User with proper permissions reviews and confirms all of the data for every Generator in the Organization.**
