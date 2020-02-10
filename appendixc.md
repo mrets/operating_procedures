@@ -19,9 +19,9 @@ M-RETS will work with a CTS to ensure a credible and reliable method for importi
 - North Carolina Renewable Energy Tracking System (NC-RETS)
 - Texas Renewable Energy Trading Program (ERCOT)
 
-_ **The following Import Process defines how Certificates are imported to M-RETS from** _ **Compatible Tracking Systems (CTS)**
+**The following Import Process defines how Certificates are imported to M-RETS from Compatible Tracking Systems (CTS)**
 
-_ **Process** _
+**Process**
 
 1. CTS Organization selects a batch of Certificates and initiates an export transfer in a CTS. As part of the export process the CTS Organization is asked to select from a drop-down menu which registry the Certificates should be transferred to what Organization.
 2. M-RETS will receive a notification that an import has been initiated. The CTS Administrator will provide an Import File to M-RETS with all applicable data as required by M-RETS.
