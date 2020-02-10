@@ -6,4 +6,4 @@ Any User within a General Account Subscription Organization that has Program man
 
 Any User within a General Account Subscription Organization that has Program manage permissions or a Program Administrator can create an External Program. The Administrator of an External Program can invite an unlimited number of other M-RETS Organizations to participate in a Program. All participants will receive a notification inviting them to participate in the Program. Prior to becoming active Program participants, the invitee must accept the invitation.
 
-A walk through guide to adding a Program may be found[here](https://help.mrets.org/en/articles/2513477-adding-a-program).
+A walk through guide to adding a Program may be found [here](https://help.mrets.org/en/articles/2513477-adding-a-program).
