@@ -38,7 +38,7 @@ Section 4.2.7: Functionality of the Retirement Account
 
 Section 4.2.8: Account Status
 
-Section 4.3: Generators
+[Section 4.3: Generators](section4.3.md)
 
 Section 4.3.1: Registration of a Generator
 
