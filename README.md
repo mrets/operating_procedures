@@ -1,5 +1,7 @@
 # M-RETS Operating Procedures
 
+[Live Site](https://mrets.github.io/Operating-Procedures/)
+
 This repository will be the source of truth for all the Overview tabs in the /docs section.
 https://app-staging.mrets.org/docs/
 https://app.mrets.org/docs/
