@@ -11,3 +11,8 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 Markdown WYSIWYG editor:
 https://macdown.uranusjr.com/ (Desktop app)
+
+# Development Setup
+
+* ```bundle install```
+* ```jeykll serve```
