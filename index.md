@@ -134,6 +134,10 @@ Table of Contents
 
 [Appendix B: Fuel Type &amp; Fuel Source](appendixb.md)
 
+[Appendix B-1: Fuel Type List](appendixb1.md)
+
+[Appendix B-2: Fuel Source List](appendixb2.md)
+
 [Appendix C: Transfer Appendix](appendixc.md)
 
 [Appendix C-1: Michigan Renewable Energy Certification System Imports](appendixc1.md)
