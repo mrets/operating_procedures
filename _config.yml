@@ -1,1 +1,9 @@
+# General Settings
+title: M-RETS Operating Procedures
+email: systemadmin@mrets.org
+description: "Midwest Renewable Energy Tracking System Operating Procedures"
+
+# Build settings
+markdown: kramdown
+
 theme: jekyll-theme-slate
