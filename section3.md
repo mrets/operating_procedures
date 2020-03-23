@@ -1,12 +1,7 @@
 # Section 3: Establishing an M-RETS Organization
 
 Participation in M-RETS is voluntary, though some states or provinces may require participation in M-RETS for purposes of regulatory program compliance. Any party that registers with M-RETS and pays the applicable fees may establish an Organization in the System.
-#
-[ANNOTATION:
 
-BY &#39;Rosie Hoyem&#39;
-ON &#39;2019-09-16T11:38:00&#39;RH
-NOTE: &#39;Do we want to say anything the checks we do on orgs when they apply?&#39;]
 There is no limit to the number of separate Organizations a company or individual may establish. Registrants will provide basic Organization registration information, such as username, address, contact info, etc. to M-RETS through a secure webpage on M-RETS. The registrant must pay all required fees specific to the Organization type subject to the M-RETS [Terms of Use](https://help.mrets.org/en/articles/1376725-terms-of-use). An Organization in M-RETS will remain active until Inactivated (_See_Section 3.2: Inactivating an Organization).
 
 M-RETS will check all Organization registration or modified existing Organization entries for completeness. An error message will flag mandatory fields not completed by the registrant.
