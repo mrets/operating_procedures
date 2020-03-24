@@ -1,4 +1,4 @@
-[##Section 4.1: Users](##Section-4.1:-Users)
+##Section 4.1: Users
 
 Users may create additional Users within their Organization by accessing the Organization information tab within the System.
 
