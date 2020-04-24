@@ -1,5 +1,5 @@
 {
-  "name": "operating-procedures",
+  "name": "@mrets/operating-procedures",
   "version": "1.0.0",
   "description": "[Live Site](https://mrets.github.io/Operating-Procedures/)",
   "main": "index.js",
