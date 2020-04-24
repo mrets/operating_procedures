@@ -1,0 +1,19 @@
+{
+  "name": "@mrets/operating-procedures",
+  "version": "1.0.0",
+  "description": "[Live Site](https://mrets.github.io/Operating-Procedures/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrets/Operating-Procedures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrets/Operating-Procedures/issues"
+  },
+  "homepage": "https://github.com/mrets/Operating-Procedures#readme"
+}
