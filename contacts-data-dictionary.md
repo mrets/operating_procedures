@@ -1,4 +1,4 @@
-| name                  | data field     | description                                       |
+| Name                  | Data Field     | Description                                       |
 |-----------------------|----------------|---------------------------------------------------|
 | Contact Name          | name           | Name of contact                                   |
 | Job Title             | job_title      | Job title of contact                              |
