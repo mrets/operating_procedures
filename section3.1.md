@@ -28,9 +28,7 @@ Minneapolis, MN 55402
 
 USA
 
-Routing and Transit Number: 096010415
-
-Account Number: 492037987
+(Remittance Address and Routing Number can be found on the invoice)
 
 1. Fees must be paid in US dollars.
 2. Please include invoice number, Organization name, and M-RETS on check payments.
