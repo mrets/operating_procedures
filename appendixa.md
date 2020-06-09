@@ -2,9 +2,9 @@
 
 (\*) denotes a required field
 
-| General |
-| --- |
-| General Information |
+| General | |
+| --- | --- |
+| General Information | |
 | Unit Name\* | Generator Name |
 | Facility Name\* | Name of the facility (some facilities may have multiple units) |
 | WI RRC Unit ID | Wisconsin PSC assigned RRC Unit ID |
@@ -26,10 +26,7 @@
 | Additional Owner(s) | If this is not a single owner, list the additional owners |
 | Owner Contact Information |
 | Company Name\* | Owner that holds legal title to the Generator |
-| Address\* | Contact information of owner referenced above
-
-
- |
+| Address\* | Contact information of owner referenced above |
 | City\* |
 | State/Province\* |
 | Zip/Postal Code\* |
