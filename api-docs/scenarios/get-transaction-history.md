@@ -28,12 +28,13 @@ The most common filters that would be applied to Transaction Details would likel
 
 The relationships available with this call include:
 
-* Account
+* User Transaction
 * Certificate
-* Organization
-* Transaction Detail
+* From Account
+* To Account
+* To Organization
 
-To receive the additional associated information that can be viewed in the Active Certificates table found in the M-RETS under the Active Certificate tab, it would be helpful to include the Account and the Certificate.
+To receive the additional associated information that can be viewed in the Transaction History table found in the M-RETS, it would be helpful to include all of these optins.
 
 [example]
 
@@ -48,19 +49,19 @@ And let's say we want to view these certificates in order by when they were crea
 
 Other things you may want to do with this endpoint could include:
 
-View all of your retired RECs:
+View all of your pending Transactions:
 
 [example]
 
-View all of your active RECs from a specific vintage, say Jan-Dec of 2019.
+View all of your issuances from a specific generator:
 
 [example]
 
-View all of your retired RECs retired for the MN RPS in 2018.  
+View all of your compliance retirements from 2019:  
 
 [example]
 
-View all of your Active RECs in a specific Account named "Test Account".
+View all of your external transfers to a specific organization:
 
 [example]
 
@@ -68,3 +69,5 @@ View all of your Active RECs in a specific Account named "Test Account".
 ## Notes on Pagination / Limits / Permissions
 
 The M-RETS API by default returns paginated results of [x] records.
+
+For external transactions, the API will not return the `to_account` field for another organization. This is information M-RETS does not expose. 
