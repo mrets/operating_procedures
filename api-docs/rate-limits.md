@@ -1,14 +1,3 @@
 # Rate Limits
 
-Example of rate limit docs: https://developer.twitter.com/en/docs/basics/rate-limits
-
-## Post Endpoints
-| Endpoint                 | Resource Family | POST limit per user |
-|--------------------------|-----------------|---------------------|
-| POST v1/public/accounts/ | Accounts        | 100 (?)             |
-
-## Get Endpoints
-
-| Endpoint                 | Resource Family | Request limit per user |
-|--------------------------|-----------------|---------------------|
-| Get v1/public/accounts/ | Accounts        | 100 (?)             |
+Each API token can be used up to 10 times over 5 seconds. The API rate limit is the same for all endpoints.
