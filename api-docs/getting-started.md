@@ -33,13 +33,13 @@ M-RETs requires that all API users be part of a registered organization with a G
 
 Swagger Docs are available for all M-RETS API endpoints.
 
-[Swagger 2.0](http://localhost:3000/apipie.json?type=swagger)
+[Swagger 2.0](https://m-rets-sandbox.herokuapp.com/apipie.json?type=swagger)
 
 ### Postman Files
 
 Select Postman files can be downloaded for many API endpoints.
 
-To use thise Postman collections, the `API_TOKEN` enviroment variable should be set to your sandbox api token.
+To use these Postman collections, the `API_TOKEN` enviroment variable should be set to your sandbox api token.
 
 [Accounts](https://m-rets-sandbox.herokuapp.com/Accounts.postman_collection.json)
 [Certificate Quantities](https://m-rets-sandbox.herokuapp.com/Certificate-Quantities.postman_collection.json)

@@ -74,6 +74,18 @@ View all of your Active RECs in a specific Account id "00000000-0000-0000-0000-0
 v1/public/certificate_quantities?filter[status]=active&filter[account_id]=00000000-0000-0000-0000-000000000001
 ```
 
+View all of your Active RECs with a specific Fuel Type id "00000000-0000-0000-0000-000000000001".
+
+```
+v1/public/certificate_quantities?filter[status]=active&filter[fuel_type]=00000000-0000-0000-0000-000000000001
+```
+
+View all of your Active RECs with a specific Eligibility with slug "hydro".
+
+```
+v1/public/certificate_quantities?filter[status]=active&filter[eligibility]=hydro
+```
+
 ## Notes on Pagination / Limits / Permissions
 
 The M-RETS API by default returns paginated results of 25 records. With a maximun of 100 records.

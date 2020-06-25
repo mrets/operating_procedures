@@ -69,6 +69,11 @@ View all of your incoming transactions from a specific Organization id "00000000
 v1/public/transaction_details?filter[from_organization]=00000000-0000-0000-0000-000000000001
 ```
 
+View all of your Transactions of RECs issued to a specific Generator id "00000000-0000-0000-0000-000000000001".
+```
+v1/public/transaction_details?filter[generator]=00000000-0000-0000-0000-000000000001
+```
+
 ## Notes on Pagination / Limits / Permissions
 
 The M-RETS API by default returns paginated results of 25 records. With a maximun of 100 records.
