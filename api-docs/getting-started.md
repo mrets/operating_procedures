@@ -57,7 +57,7 @@ To use these Postman collections, the `API_TOKEN` enviroment variable should be 
 
 Our data dictionaries can be found embedded in the documentation for our individual endpoints or can be downloaded as part of the M-RETS Operating Procedures.
 
-### Newletter
+### Newsletter
 
 Subscribe to our API newsletter for updates on the latest developments related to our API.
 
