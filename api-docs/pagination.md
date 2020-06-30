@@ -2,7 +2,7 @@
 
 Instead of returning the full result set when the user asks for it, we can break it into smaller pages of data. That way the server never needs to serialize every resource in the system at once.
 
-You can use `page[size]` and `page[size]` in the query string to control which page you are viewing. The maximum current page size is 1000.
+You can use `page[number]` and `page[size]` in the query string to control which page you are viewing. The maximum current page size is 1000.
 
 **For example**
 
