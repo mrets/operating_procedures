@@ -42,14 +42,14 @@ All transactions are initiated in the same way.
 ```json
 {
   "data": {
-      "id": <transaction uuid>,
+      "id": "<transaction uuid>",
       "type": "user_transactions",
-      "links": ...,
+      "links": {...},
       "attributes": {
         "transaction_type": "internal transfer",
         "status": "draft",
-        "created_at": ...,
-        "updated_at": ...,
+        "created_at": "2020-01-01T00:00:00Z",
+        "updated_at": "2020-01-01T00:00:00Z",
         "retirement_type": null,
         "started_at": null,
         "ended_at": null,
@@ -59,7 +59,7 @@ All transactions are initiated in the same way.
         "retired_quarter": null,
         "retirement_reason": null
       },
-      "relationships": ...
+      "relationships": [...]
   }
 }
 ```
@@ -91,25 +91,25 @@ Transaction Details can be created into that draft User Transaction.
       "user_transaction": {
         "data": {
           "type": "user_transactions",
-          "id": <transaction uuid>
+          "id": "<transaction uuid>"
         }
       },
       "from_account": {
         "data": {
           "type": "accounts",
-          "id": <from account uuid>
+          "id": "<from account uuid>"
         }
       },
       "to_account": {
         "data": {
           "type": "accounts",
-          "id": <to account uuid>
+          "id": "<to account uuid>"
         }
       },
       "certificate": {
         "data": {
           "type": "certificates",
-          "id": <certificate uuid>
+          "id": "<certificate uuid>"
         }
       }
     }
@@ -121,17 +121,17 @@ Transaction Details can be created into that draft User Transaction.
 ```json
 {
   "data": {
-    "id": ...,
+    "id": "...",
     "type": "transaction_details",
-    "links": ...,
+    "links": {...},
     "attributes": {
       "serial_number_start": 1,
       "serial_number_end": 100,
       "quantity": 100,
-      "created_at": ...,
-      "updated_at": ...
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": "2020-01-01T00:00:00Z"
     },
-    "relationships": ...
+    "relationships": [...]
   }
 }
 ```
@@ -148,32 +148,32 @@ One or many Certificate are specified. To view what the possible options are, th
 {
   "data": [
     {
-        "id": ...,
+        "id": "...",
         "type": "certificate_quantities",
-        "links": ...,
+        "links": {...},
         "attributes": {
             "quantity": 100,
             "serial_number_end": 100,
             "serial_number_start": 1,
-            "serial_number_base": ...,
-            "rrc_quantity": ...,
+            "serial_number_base": "...",
+            "rrc_quantity": "...",
             "status": "active",
-            "created_at": ...,
-            "updated_at": ...
+            "created_at": "2020-01-01T00:00:00Z",
+            "updated_at": "2020-01-01T00:00:00Z"
         },
         "relationships": {
-            "account": ...,
+            "account": {...},
             "certificate": {
-                "links": ...,
+                "links": {...},
                 "data": {
                     "type": "certificates",
-                    "id": <certificate uuid>
+                    "id": "<certificate uuid>"
                 }
             },
-            "transaction_detail": ...
+            "transaction_detail": {...}
         }
     },
-    ...
+    {...}
   ]
 }
 ```
@@ -184,7 +184,7 @@ Then select an Certificate and include it in a post call like this:
 "certificate": {
   "data": {
     "type": "certificates",
-    "id": <certificate uuid>
+    "id": "<certificate uuid>"
   }
 }
 ```
@@ -201,17 +201,17 @@ The destination on an internal transfer should one or many Active Accounts withi
 {
   "data": [
     {
-      "id": <account uuid>,
+      "id": "<account uuid>",
       "type": "accounts",
-      "links": ...,
+      "links": {...},
       "attributes": {
           "name": "Bangor",
           "status": "open",
           "account_type": "active",
-          "created_at": ...,
-          "updated_at": ...
+          "created_at": "2020-01-01T00:00:00Z",
+          "updated_at": "2020-01-01T00:00:00Z"
       },
-      "relationships": ...
+      "relationships": [...]
     },
     ...
   ]
@@ -224,14 +224,14 @@ Then select an Active Account and include it in a post call like this:
 "to_account": {
   "data": {
     "type": "accounts",
-    "id": <account uuid>
+    "id": "<account uuid>"
   }
 }
 ```
 
 ## Initiating an External Transfer
 
-All transactions are initiated in the same way. See [Drafting a transaction](Drafting-a-transaction)
+All transactions are initiated in the same way. See [Drafting a transaction](#drafting-a-transaction)
 
 ### Specifying the Transaction Type
 
@@ -260,25 +260,25 @@ Transaction Details can be created into that draft User Transaction.
       "user_transaction": {
         "data": {
           "type": "user_transactions",
-          "id": <transaction uuid>
+          "id": "<transaction uuid>"
         }
       },
       "from_account": {
         "data": {
           "type": "accounts",
-          "id": <from account uuid>
+          "id": "<from account uuid>"
         }
       },
       "to_organization": {
         "data": {
           "type": "organizations",
-          "id": <to organization uuid>
+          "id": "<to organization uuid>"
         }
       },
       "certificate": {
         "data": {
           "type": "certificates",
-          "id": <certificate uuid>
+          "id": "<certificate uuid>"
         }
       }
     }
@@ -290,17 +290,17 @@ Transaction Details can be created into that draft User Transaction.
 ```json
 {
   "data": {
-    "id": ...,
+    "id": "...",
     "type": "transaction_details",
-    "links": ...,
+    "links": {...},
     "attributes": {
       "serial_number_start": 1,
       "serial_number_end": 100,
       "quantity": 100,
-      "created_at": ...,
-      "updated_at": ...
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": "2020-01-01T00:00:00Z"
     },
-    "relationships": ...
+    "relationships": [...]
   }
 }
 ```
@@ -316,21 +316,21 @@ The destination for an external transfer should be another Active Organization w
 {
   "data": [
     {
-      "id": <organization uuid>,
+      "id": "<organization uuid>",
       "type": "organizations",
-      "links": ...,
+      "links": {...},
       "attributes": {
-        "name": ...,
+        "name": "...",
         "resource_type": "rec",
-        "account_type": ...,
-        "organization_type": ...,
-        "organization_subtype": ...,
-        "created_at": ...,
-        "updated_at": ...
+        "account_type": "...",
+        "organization_type": "...",
+        "organization_subtype": "...",
+        "created_at": "2020-01-01T00:00:00Z",
+        "updated_at": "2020-01-01T00:00:00Z"
       },
-      "relationships": ...
+      "relationships": [...]
     },
-    ...
+    {...}
   ]
 }
 ```
@@ -341,7 +341,7 @@ Then select an Organization and include it in a post call like this:
 "to_organization": {
   "data": {
     "type": "organizations",
-    "id": <organization uuid>
+    "id": "<organization uuid>"
   }
 }
 ```
