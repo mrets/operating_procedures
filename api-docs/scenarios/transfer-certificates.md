@@ -29,12 +29,12 @@ All transactions are initiated in the same way.
 ##### Example
 ```json
 {
-    "data": {
-        "type": "user_transactions",
-        "attributes": {
-            "transaction_type": "internal transfer"
-        }
+  "data": {
+    "type": "user_transactions",
+    "attributes": {
+      "transaction_type": "internal transfer"
     }
+  }
 }
 ```
 ##### Response
@@ -42,24 +42,24 @@ All transactions are initiated in the same way.
 ```json
 {
   "data": {
-      "id": "<transaction uuid>",
-      "type": "user_transactions",
-      "links": {...},
-      "attributes": {
-        "transaction_type": "internal transfer",
-        "status": "draft",
-        "created_at": "2020-01-01T00:00:00Z",
-        "updated_at": "2020-01-01T00:00:00Z",
-        "retirement_type": null,
-        "started_at": null,
-        "ended_at": null,
-        "compliance_period": null,
-        "retired_to": null,
-        "notes": null,
-        "retired_quarter": null,
-        "retirement_reason": null
-      },
-      "relationships": [...]
+    "id": "<transaction uuid>",
+    "type": "user_transactions",
+    "links": {...},
+    "attributes": {
+      "transaction_type": "internal transfer",
+      "status": "draft",
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": "2020-01-01T00:00:00Z",
+      "retirement_type": null,
+      "started_at": null,
+      "ended_at": null,
+      "compliance_period": null,
+      "retired_to": null,
+      "notes": null,
+      "retired_quarter": null,
+      "retirement_reason": null
+    },
+    "relationships": [...]
   }
 }
 ```
@@ -148,30 +148,30 @@ One or many Certificate are specified. To view what the possible options are, th
 {
   "data": [
     {
-        "id": "...",
-        "type": "certificate_quantities",
-        "links": {...},
-        "attributes": {
-            "quantity": 100,
-            "serial_number_end": 100,
-            "serial_number_start": 1,
-            "serial_number_base": "...",
-            "rrc_quantity": "...",
-            "status": "active",
-            "created_at": "2020-01-01T00:00:00Z",
-            "updated_at": "2020-01-01T00:00:00Z"
+      "id": "...",
+      "type": "certificate_quantities",
+      "links": {...},
+      "attributes": {
+        "quantity": 100,
+        "serial_number_end": 100,
+        "serial_number_start": 1,
+        "serial_number_base": "...",
+        "rrc_quantity": "...",
+        "status": "active",
+        "created_at": "2020-01-01T00:00:00Z",
+        "updated_at": "2020-01-01T00:00:00Z"
+      },
+      "relationships": {
+        "account": {...},
+        "certificate": {
+          "links": {...},
+          "data": {
+            "type": "certificates",
+            "id": "<certificate uuid>"
+          }
         },
-        "relationships": {
-            "account": {...},
-            "certificate": {
-                "links": {...},
-                "data": {
-                    "type": "certificates",
-                    "id": "<certificate uuid>"
-                }
-            },
-            "transaction_detail": {...}
-        }
+        "transaction_detail": {...}
+      }
     },
     {...}
   ]
@@ -205,11 +205,11 @@ The destination on an internal transfer should one or many Active Accounts withi
       "type": "accounts",
       "links": {...},
       "attributes": {
-          "name": "Bangor",
-          "status": "open",
-          "account_type": "active",
-          "created_at": "2020-01-01T00:00:00Z",
-          "updated_at": "2020-01-01T00:00:00Z"
+        "name": "...",
+        "status": "open",
+        "account_type": "active",
+        "created_at": "2020-01-01T00:00:00Z",
+        "updated_at": "2020-01-01T00:00:00Z"
       },
       "relationships": [...]
     },
