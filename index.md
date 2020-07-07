@@ -2,13 +2,13 @@ Table of Contents
 
 #### [Section 1: Introduction](index.md#section-1-introduction-1)
 
-#### [Section 2: Privacy and Security](section2.md)
+#### [Section 2: Privacy and Security](index.md#section-2-privacy-and-security-1)
 
-#### [Section 3: Establishing an M-RETS Organization](section3.md)
+#### [Section 3: Establishing an M-RETS Organization](index.md#section-3-establishing-an-m-rets-organization-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 3.1: Billing Information](section3.1.md)
+##### &nbsp;&nbsp;&nbsp;[Section 3.1: Billing Information](index.md#section-31-billing-information-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 3.2: Inactivating an Organization](section3.2.md)
+##### &nbsp;&nbsp;&nbsp;[Section 3.2: Inactivating an Organization](index.md#section-32-inactivating-an-organization-1)
 
 #### [Section 4: The Tracking System](section4.1full.md)
 
