@@ -149,3 +149,105 @@ Table of Contents
 #### &nbsp;&nbsp;&nbsp;[Appendix C-4: Texas Renewable Energy Trading Program (ERCOT)](appendixc4.md)
 
 ### [Appendix D: Glossary](appendixd.md)
+
+# Section 1: Introduction
+
+This document serves as a comprehensive introduction to the Midwest Renewable Energy Tracking System (M-RETS).  M-RETS staff organized this document to help lead Users through registration and use of the System.
+
+M-RETS offers a comprehensive list of training documentation with detailed walkthroughs of features [here](https://help.mrets.org/). M-RETS also offers custom web-based training modules for Organizations. To request a training, please contact [systemadmin@mrets.org](mailto:systemadmin@mrets.org).
+
+M-RETS staff were all involved with the creation and editing of these Operating Procedures. At the time of creation, M-RETS staff consisted of:
+
+Benjamin Gerber, Executive Director
+
+Tanya Gajewska, Chief Administrative Officer
+
+Rosie Hoyem, Program Manager
+
+Sean Darling, Technical Program Coordinator
+
+John Malone, Senior Developer
+
+# Section 2: Privacy and Security
+
+Except where explicitly granted within the Operating Procedures, [Terms of Use](https://help.mrets.org/en/articles/1376725-terms-of-use), or by Separate Agreement, M-RETS holds all User information strictly confidential. However, M-RETS provides public reports that include aggregate data available through the public area of the M-RETS website. M-RETS requires comprehensive verification before any information is disclosed, except if the requesting party is identified as a State or Provincial Regulator. More information about confidentiality can be found in the M-RETS [Terms of Use, Section 11](https://help.mrets.org/en/articles/1376725-terms-of-use).
+
+M-RETS requires Users create a secure password with a minimum of 12 characters. M-RETS expressly prohibits the sharing of User credentials. M-RETS requires every person that logs into the System to have their own separate User login credentials. M-RETS tracks the specific activities of each User through the unique User ID and password. Failure to adhere to these security recommendations and the [Terms of Use](https://help.mrets.org/en/articles/1376725-terms-of-use) can lead to loss of access to M-RETS.
+
+# Section 3: Establishing an M-RETS Organization
+
+Participation in M-RETS is voluntary, though some states or provinces may require participation in M-RETS for purposes of regulatory program compliance. Any party that registers with M-RETS and pays the applicable fees may establish an Organization in the System.
+
+There is no limit to the number of separate Organizations a company or individual may establish. Registrants will provide basic Organization registration information, such as username, address, contact info, etc. to M-RETS through a secure webpage on M-RETS. The registrant must pay all required fees specific to the Organization type subject to the M-RETS [Terms of Use](https://help.mrets.org/en/articles/1376725-terms-of-use). An Organization in M-RETS will remain active until Inactivated (_See_Section 3.2: Inactivating an Organization).
+
+M-RETS will check all Organization registration or modified existing Organization entries for completeness. An error message will flag mandatory fields not completed by the registrant.
+
+Each Organization shall pay an annual Subscription Fee. A renewal fee will be due in the month of registration of each subsequent calendar year. The Subscription Fee will be based upon the type of Organization subscribed. Below is a visual representation of the subscription types with more detailed information. Please note that for billing purposes M-RETS will use the prices listed on the website.
+
+If a subscriber fails to pay their annual Subscription Fee within ninety-days (90) of issuance, M-RETS shall close the Organizations access to the System. A User that wishes to reactivate an Organization that is closed due to failure to pay shall be required to pay the full annual Subscription Fee as well as an additional reactivation fee equal to 65% of the current Subscription Fee applicable to the closed Organization.
+
+- **Micro-Generator Project Subscription: $50/year**
+  - This type of Organization can register a total of up to 100 kW in nameplate capacity of renewable Generators and have Certificates issued to it for its Generators. A Micro-Generator Project can hold, transfer (only outgoing transfers), withdraw and retire Certificates. A Micro-Generator Project cannot receive transfers from other parties.
+
+- **Small Generator Project Subscription: $125/year**
+  - This type of Organization can register a total of up to 1.5 MW in total nameplate capacity of renewable Generators and have Certificates issued to it for its Generators. A Small Generator Project can hold, transfer (only outgoing transfers), withdraw and retire Certificates. A Small Generator Project cannot receive transfers from other parties.
+
+- **Project Subscription: $550/year**
+  - This type of Organization can register one or more renewable Generators and have Certificates issued to it for its Generators. A Project can hold, transfer (only outgoing transfers), withdraw, and retire Certificates. This type of Organization cannot receive transfers from other parties.
+
+- **General Subscription: $2,200/year**
+  - This type of Organization can hold, transfer (outgoing and incoming), and retire Certificates as well as register and maintain Generators and have Certificates issued to it for its Generators. This Organization type is the only type that can retire Certificates for compliance with any of the State RPS programs utilizing MRETS.
+
+- **Retail Purchaser Subscription: $1,100/year**
+  - This type of Organization is for retail purchasers of Certificates. A Retail Purchaser can hold, accept incoming transfers, and retire Certificates. They can also register and maintain Generators that are under 1 MW in capacity and have Certificates issued in their Organization. Retail Purchasers cannot make outgoing transfers.
+
+- **Qualified Reporting Entity (QRE): No Fee**
+  - Qualified Reporting Entity is the control area operator, interconnecting utility, scheduling coordinator, or an independent third-party meter reader and is not affiliated with the owner of the Generator for which the entity is reporting; or the control area operator or interconnecting utility and that is affiliated with the Generator owner, but having sufficient segregation of duties such that the person performing the QRE duties does not have access to transfer or retire Certificates created for that Generator. A QRE must enter into an agreement with M-RETS describing the terms and conditions under which the QRE agrees to conduct business with M-RETS and must report data in accordance with the standards set forth in these Operating Procedures.
+
+- **Program Administrator/Government Regulator: No Fee**
+  - State regulators, including but not limited to public utility commission and public service commission staff and voluntary market program administrators (e.g. Green-e) may be granted a Program Administrator/Government Regulator Organization. To find out if an Organization qualifies please contact M-RETS at [systemadmin@mrets.org](mailto:systemadmin@mrets.org).
+
+## Section 3.1: Billing Information
+
+It is the Organization&#39;s responsibility to make sure billing info is up to date and correct. Billing Information can be changed at any time. Information on how to add or update billing contact information can be found [here](https://help.mrets.org/within-the-system/billing/updateadd-your-billing-contact-information).
+
+Organization Info holds Billing Information where Users can Access Organization Invoices. Information on how to view Invoices can be found [here](https://help.mrets.org/within-the-system/billing/view-the-status-of-current-and-past-invoices).
+
+M-RETS accepts payment in the form of checks, wire transfers, or ACH transfers. Organizations must send requests for Vendor Authorization Forms and W-9s and/or billing questions to Tanya Gajewska at [tanya@mrets.org](mailto:tanya@mrets.org).
+
+Checks may be mailed to:
+
+Midwest Renewable Energy Tracking System, Inc.
+
+PO Box 856556
+
+Minneapolis MN 55485-6556
+
+(please always include the dash and 6556 after the zip code)
+
+Wire transfers or ACH transfers may be routed to:
+
+Midwest Renewable Energy Tracking System, Inc.
+
+Bremer Bank
+
+225 6th Street South Suite 200
+
+Minneapolis, MN 55402
+
+USA
+
+(Remittance Address and Routing Number can be found on the invoice)
+
+1. Fees must be paid in US dollars.
+2. Please include invoice number, Organization name, and M-RETS on check payments.
+3. Please include invoice number(s) on wire transfer.
+4. Payments may be made via wire transfer or check.
+5. Please include currency and/or wire fees to the amount paid. The generated invoice does not include any wiring fees levied by the bank.
+
+Note: payments may take up to 2 business days to be reflected in the Organization.
+
+## Section 3.2: Inactivating an Organization
+
+A User with the appropriate permissions may begin the Organization Inactivation procedure by notifying M-RETS in writing from the email associated with a User that has the proper permission level.  The User shall furnish the data that M-RETS should place the Organization into Inactive status. Any Generator assigned to the Organization will become Inactive and may not produce any further Certificates. Moreover, once Inactive Users from the Organization may not access any remaining Certificates or pending Transactions.
+
