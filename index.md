@@ -38,7 +38,7 @@ Table of Contents
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.8: Account Status](section4.2.8.md)
 
-#### [Section 4.3: Generators](section4.3.md)
+#### &nbsp;&nbsp;&nbsp;[Section 4.3: Generators](section4.3.md)
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.1: Registration of a Generator](section4.3.1.md)
 
@@ -96,7 +96,7 @@ Table of Contents
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.5: Forced Retirement of Certificates](section4.5.5.md)
 
-#### [Section 4.6: Transactions](section4.6.md)
+#### &nbsp;&nbsp;&nbsp;[Section 4.6: Transactions](section4.6.md)
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.1: Transferring Certificates between Organizations](section4.6.1.md)
 
@@ -110,13 +110,13 @@ Table of Contents
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.6: Re-Import of Exported Certificates](section4.6.6.md)
 
-#### [Section 4.7: Programs](section4.7.md)
+#### &nbsp;&nbsp;&nbsp;[Section 4.7: Programs](section4.7.md)
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.7.1: Establishing a Program](section4.7.1.md)
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.7.2: Participating in a Program](section.4.7.2.md)
 
-#### [Section 4.8: API](section4.8.md)
+#### &nbsp;&nbsp;&nbsp;[Section 4.8: API](section4.8.md)
 
 ### [Section 5: Wisconsin RPS](section5.md)
 
