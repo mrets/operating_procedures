@@ -10,7 +10,7 @@ Table of Contents
 
 ##### &nbsp;&nbsp;&nbsp;[Section 3.2: Inactivating an Organization](index.md#section-32-inactivating-an-organization-1)
 
-#### [Section 4: The Tracking System](section4.1full.md)
+#### [Section 4: The Tracking System](fullsection4.1.md)
 
 ##### &nbsp;&nbsp;&nbsp;[Section 4.1: Users](section4.1.md)
 
