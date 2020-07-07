@@ -1,6 +1,6 @@
 Table of Contents
 
-#### [Section 1: Introduction](https://github.com/mrets/Operating-Procedures/blob/master/index.md#section-1-introduction-1)
+#### [Section 1: Introduction](index.md#section-1-introduction-1)
 
 #### [Section 2: Privacy and Security](section2.md)
 
