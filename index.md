@@ -6,13 +6,13 @@ Table of Contents
 
 ### [Section 3: Establishing an M-RETS Organization](section3.md)
 
-#### [Section 3.1: Billing Information](section3.1.md)
+#### &nbsp;&nbsp;&nbsp;[Section 3.1: Billing Information](section3.1.md)
 
-#### [Section 3.2: Inactivating an Organization](section3.2.md)
+#### &nbsp;&nbsp;&nbsp;[Section 3.2: Inactivating an Organization](section3.2.md)
 
 ### [Section 4: The Tracking System](section4.1full.md)
 
-#### [Section 4.1: Users](section4.1.md)
+#### &nbsp;&nbsp;&nbsp;[Section 4.1: Users](section4.1.md)
 
 ##### [Section 4.1.1: User Permissions](section4.1.1.md)
 
@@ -20,7 +20,7 @@ Table of Contents
 
 ##### [Section 4.1.4: Inactivating Users](section4.1.4.md)
 
-#### [Section 4.2: Accounts](section4.2.md)
+#### &nbsp;&nbsp;&nbsp;[Section 4.2: Accounts](section4.2.md)
 
 ##### [Section 4.2.1: Active Accounts](section4.2.1.md)
 
@@ -70,7 +70,7 @@ Table of Contents
 
 ##### [Section 4.3.15: Changing Rights of Registration](section4.3.15.md)
 
-#### [Section 4.4: Generation](section4.4.md)
+#### &nbsp;&nbsp;&nbsp;[Section 4.4: Generation](section4.4.md)
 
 ##### [Section 4.4.1: Acceptable Format](section4.4.1.md)
 
@@ -84,7 +84,7 @@ Table of Contents
 
 ##### [Section 4.4.6: Data Transmittal](section4.4.6.md)
 
-#### [Section 4.5: Renewable Energy Certificates (RECs)](section4.5.md)
+#### &nbsp;&nbsp;&nbsp;[Section 4.5: Renewable Energy Certificates (RECs)](section4.5.md)
 
 ##### [Section 4.5.1: Creation of Certificates](section4.5.1.md)
 
@@ -120,11 +120,11 @@ Table of Contents
 
 ### [Section 5: Wisconsin RPS](section5.md)
 
-#### [Section 5.1: WI Bankable](section5.1.md)
+#### &nbsp;&nbsp;&nbsp;[Section 5.1: WI Bankable](section5.1.md)
 
-#### [Section 5.2: WI Non-Bankable](section5.2.md)
+#### &nbsp;&nbsp;&nbsp;[Section 5.2: WI Non-Bankable](section5.2.md)
  
-#### [Section 5.3: RRC Adjusted Quantity](section5.3.md)
+#### &nbsp;&nbsp;&nbsp;[Section 5.3: RRC Adjusted Quantity](section5.3.md)
 
 ### [Section 6: Public Reports](section6.md)
 
@@ -134,18 +134,18 @@ Table of Contents
 
 ### [Appendix B: Fuel Type & Fuel Source](appendixb.md)
 
-#### [Appendix B-1: Fuel Type List](appendixb1.md)
+#### &nbsp;&nbsp;&nbsp;[Appendix B-1: Fuel Type List](appendixb1.md)
 
-#### [Appendix B-2: Fuel Source List](appendixb2.md)
+#### &nbsp;&nbsp;&nbsp;[Appendix B-2: Fuel Source List](appendixb2.md)
 
 ### [Appendix C: Transfer Appendix](appendixc.md)
 
-#### [Appendix C-1: Michigan Renewable Energy Certification System Imports](appendixc1.md)
+#### &nbsp;&nbsp;&nbsp;[Appendix C-1: Michigan Renewable Energy Certification System Imports](appendixc1.md)
 
-#### [Appendix C-2: North Carolina Renewable Energy Tracking System Imports](appendixc2.md)
+#### &nbsp;&nbsp;&nbsp;[Appendix C-2: North Carolina Renewable Energy Tracking System Imports](appendixc2.md)
 
-#### [Appendix C-3: North American Renewable Registry System Imports](appendixc3.md)
+#### &nbsp;&nbsp;&nbsp;[Appendix C-3: North American Renewable Registry System Imports](appendixc3.md)
 
-#### [Appendix C-4: Texas Renewable Energy Trading Program (ERCOT)](appendixc4.md)
+#### &nbsp;&nbsp;&nbsp;[Appendix C-4: Texas Renewable Energy Trading Program (ERCOT)](appendixc4.md)
 
 ### [Appendix D: Glossary](appendixd.md)
