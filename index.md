@@ -1,8 +1,4 @@
-<p align="center"> 
- 
-![](https://www.mrets.org/wp-content/uploads/2019/08/mrets_logo_@2x-2.png)
-
-</p>
+<img align="center" src="https://www.mrets.org/wp-content/uploads/2019/08/mrets_logo_@2x-2.png">
 
 **Table of Contents**
 
