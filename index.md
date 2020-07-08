@@ -156,6 +156,8 @@
 
 [Appendix D: Glossary](index.md#appendix-d-glossary)
 
+
+
 # Section 1: Introduction
 
 This document serves as a comprehensive introduction to the Midwest Renewable Energy Tracking System (M-RETS).  M-RETS staff organized this document to help lead Users through registration and use of the System.
@@ -174,11 +176,15 @@ Sean Darling, Technical Program Coordinator
 
 John Malone, Senior Developer
 
+
+
 # Section 2: Privacy and Security
 
 Except where explicitly granted within the Operating Procedures, [Terms of Use](https://help.mrets.org/en/articles/1376725-terms-of-use), or by Separate Agreement, M-RETS holds all User information strictly confidential. However, M-RETS provides public reports that include aggregate data available through the public area of the M-RETS website. M-RETS requires comprehensive verification before any information is disclosed, except if the requesting party is identified as a State or Provincial Regulator. More information about confidentiality can be found in the M-RETS [Terms of Use, Section 11](https://help.mrets.org/en/articles/1376725-terms-of-use).
 
 M-RETS requires Users create a secure password with a minimum of 12 characters. M-RETS expressly prohibits the sharing of User credentials. M-RETS requires every person that logs into the System to have their own separate User login credentials. M-RETS tracks the specific activities of each User through the unique User ID and password. Failure to adhere to these security recommendations and the [Terms of Use](https://help.mrets.org/en/articles/1376725-terms-of-use) can lead to loss of access to M-RETS.
+
+
 
 # Section 3: Establishing an M-RETS Organization
 
@@ -212,6 +218,8 @@ If a subscriber fails to pay their annual Subscription Fee within ninety-days (9
 
 - **Program Administrator/Government Regulator: No Fee**
   - State regulators, including but not limited to public utility commission and public service commission staff and voluntary market program administrators (e.g. Green-e) may be granted a Program Administrator/Government Regulator Organization. To find out if an Organization qualifies please contact M-RETS at [systemadmin@mrets.org](mailto:systemadmin@mrets.org).
+
+
 
 ## Section 3.1: Billing Information
 
@@ -253,11 +261,17 @@ USA
 
 Note: payments may take up to 2 business days to be reflected in the Organization.
 
+
+
 ## Section 3.2: Inactivating an Organization
 
 A User with the appropriate permissions may begin the Organization Inactivation procedure by notifying M-RETS in writing from the email associated with a User that has the proper permission level.  The User shall furnish the data that M-RETS should place the Organization into Inactive status. Any Generator assigned to the Organization will become Inactive and may not produce any further Certificates. Moreover, once Inactive Users from the Organization may not access any remaining Certificates or pending Transactions.
 
+
+
 # Section 4: The Tracking System
+
+
 
 ## Section 4.1: Users
 
@@ -266,6 +280,8 @@ Users may create additional Users within their Organization by accessing the Org
 M-RETS expressly prohibits the sharing of User credentials. M-RETS requires every person that logs into the System to have their own separate User login credentials. M-RETS tracks the specific activities of each User through the unique User ID and password.
 
 More information about confidentiality can be found in the [M-RETS Terms of Use.](https://help.mrets.org/en/articles/1376725-terms-of-use)
+
+
 
 ### Section 4.1.1: User Permissions
 
@@ -299,6 +315,8 @@ In M-RETS, &#39;API&#39; refers to the application programming interface. Any Us
 
 In M-RETS, &#39;Generation&#39; refers to the uploading and issuance of Certificates. A User with &#39;Manage&#39; permissions will be able to upload MWh information for issuance.
 
+
+
 ### Section 4.1.2: Notification Settings
 
 M-RETS allows Users to opt into email notifications when certain changes occur to their Organization. By default, M-RETS disables email notifications. M-RETS encourages Users to enable email notifications in their settings. An informational walk-through on notification settings is on the [integrated help system.](https://help.mrets.org/en/articles/2034693-email-notifications)
@@ -308,6 +326,8 @@ There are three notification settings:
 1. Transfers
 2. Issuances
 3. Retirements
+
+
 
 ### Section 4.1.3: Notification Categories
 
@@ -337,6 +357,8 @@ In order to reinstate access to M-RETS, the Organization shall be required to pr
 
 Organizations may inactivate a User at any time for any reason. M-RETS may inactivate a User for failure to adhere to the Operating Procedures or Terms of Use.
 
+
+
 Section 4.2: Accounts
 ---------------------
 
@@ -345,6 +367,8 @@ Accounts. Users can transfer Certificates to specific Accounts manually
 or automatically upon upload. Each Account has a unique identification
 number, similar to a banking system. Users may attach aliases to
 Accounts for ease of reference (e.g., by state, by product name, etc.).
+
+
 
 ### Section 4.2.1: Active Accounts
 
@@ -357,6 +381,8 @@ type---may be able to transfer, retire, or export the Certificates.
 If the Account has a Generating Unit(s) associated with it, the Active
 Account will be the first point of deposit for any M-RETS Certificates
 created that are associated with the Generating Unit(s) ID number.
+
+
 
 ### Section 4.2.2: Deposits to the Active Account
 
@@ -379,6 +405,8 @@ Account.
     Organization can specify in each case the Active Account in which
     they want the Certificates deposited.
 
+
+
 ### Section 4.2.3: Transfers from the Active Account
 
 There are four ways to withdraw or remove M-RETS Certificates from an
@@ -396,6 +424,8 @@ Active Account:
 4.  Export the M-RETS Certificates out of M-RETS to another compatible
     tracking system.
 
+
+
 ### Section 4.2.4: Functionality of an Active Account
 
 In addition to being able to deposit and withdraw M-RETS Certificates
@@ -403,6 +433,8 @@ from the Active Account, Organizations may view and sort their
 Certificates by a number of Certificate fields, generate reports about
 their Account, create additional Active Accounts, and transfer active
 M-RETS Certificates between Active Accounts.
+
+
 
 ### Section 4.2.5: Retirement Accounts
 
@@ -422,9 +454,13 @@ another Retirement Account (i.e. if an Organization has multiple
 Retirement Accounts). The Retirement Account is effectively the last
 resting place for an M-RETS Certificate.
 
+
+
 ### Section 4.2.6: Deposits to the Retirement Account
 
 [See Section 4.5.3: Retirement of Certificates](index.md#section-453-retirement-of-certificates-1)
+
+
 
 ### Section 4.2.7: Functionality of the Retirement Account
 
