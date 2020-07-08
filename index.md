@@ -1653,7 +1653,7 @@ At the time of publication, the M-RETS Board of Directors included:
 
 # Appendix B: Fuel Type &amp; Fuel Source
 
-## Fuel Type
+### Fuel Type
 
 | **Fuel Type(Short Description)** | **Fuel Type(Long Description)** | **Renewable(Y/N)** | **Recycled(Y/N)** |
 | --- | --- | --- | --- |
@@ -1680,7 +1680,7 @@ At the time of publication, the M-RETS Board of Directors included:
 
 
 
-## Fuel Source:
+### Fuel Source:
 
 | **Fuel Type** | **Fuel Source** |
 | --- | --- |
