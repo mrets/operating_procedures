@@ -18,27 +18,29 @@ Table of Contents
 
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.2: Notification Settings](index.md#section-412-notification-settings-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.4: Inactivating Users](section4.1.4.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.3: Notification Categories](index.md#section-413-notification-categories)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.2: Accounts](section4.2.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.4: Inactivating Users](index.md#section-414-inactivating-users-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.1: Active Accounts](section4.2.1.md)
+##### &nbsp;&nbsp;&nbsp;[Section 4.2: Accounts](index.md#section-42-accounts-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.2: Deposits to the Active Account](section4.2.2.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.1: Active Accounts](index.md#section-421-active-accounts-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.3: Transfers from the Active Account](section4.2.3.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.2: Deposits to the Active Account](index.md#section-422-deposits-to-the-active-account-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.4: Functionality of an Active Account](section4.2.4.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.3: Transfers from the Active Account](index.md#section-423-transfers-from-the-active-account-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.5: Retirement Accounts](section4.2.5.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.4: Functionality of an Active Account](index.md#section-424-functionality-of-an-active-account-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.6: Deposits to the Retirement Account](section4.2.6.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.5: Retirement Accounts](index.md#section-425-retirement-accounts-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.7: Functionality of the Retirement Account](section4.2.7.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.6: Deposits to the Retirement Account](index.md#section-426-deposits-to-the-retirement-account-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.8: Account Status](section4.2.8.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.7: Functionality of the Retirement Account](index.md#section-427-functionality-of-the-retirement-account-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.3: Generators](section4.3.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.8: Account Status](index.md#section-42-account-status-1)
+
+##### &nbsp;&nbsp;&nbsp;[Section 4.3: Generators](index.md#section-43-generators-1)
 
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.1: Registration of a Generator](section4.3.1.md)
 
