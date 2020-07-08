@@ -1,4 +1,8 @@
-![](https://www.mrets.org/wp-content/uploads/2020/06/mrets_electricity-1024x228.png) ![](https://www.mrets.org/wp-content/uploads/2020/06/mrets_thermal-1024x243.png)
+<p align="center"> 
+ 
+![](https://www.mrets.org/wp-content/uploads/2019/08/mrets_logo_@2x-2.png)
+
+</p>
 
 **Table of Contents**
 
