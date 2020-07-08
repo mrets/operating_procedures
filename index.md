@@ -418,7 +418,7 @@ resting place for an M-RETS Certificate.
 
 ### Section 4.2.6: Deposits to the Retirement Account
 
-*See* Section 4.5.3: Retirement of Certificates
+[See Section 4.5.3: Retirement of Certificates](index.md#section-453-retirement-of-certificates-1)
 
 ### Section 4.2.7: Functionality of the Retirement Account
 
