@@ -140,17 +140,17 @@ Table of Contents
 
 ##### &nbsp;&nbsp;&nbsp;[Appendix B-2: Fuel Source List](index.md#fuel-source)
 
-#### [Appendix C: Transfer Appendix](appendixc.md)
+#### [Appendix C: Transfer Appendix](index.md#appendix-c-transfer-appendix-1)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix C-1: Michigan Renewable Energy Certification System Imports](appendixc1.md)
+##### &nbsp;&nbsp;&nbsp;[Appendix C-1: Michigan Renewable Energy Certification System Imports](index.md#appendix-c-1-michigan-renewable-energy-certification-system-imports-1)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix C-2: North Carolina Renewable Energy Tracking System Imports](appendixc2.md)
+##### &nbsp;&nbsp;&nbsp;[Appendix C-2: North Carolina Renewable Energy Tracking System Imports](index.md#appendix-c-2-north-carolina-renewable-energy-tracking-system-imports-1)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix C-3: North American Renewable Registry System Imports](appendixc3.md)
+##### &nbsp;&nbsp;&nbsp;[Appendix C-3: North American Renewable Registry System Imports](index.md#appendix-c-3-north-american-renewable-registry-system-imports-1)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix C-4: Texas Renewable Energy Trading Program (ERCOT)](appendixc4.md)
+##### &nbsp;&nbsp;&nbsp;[Appendix C-4: Texas Renewable Energy Trading Program (ERCOT)](index.md#appendix-c-4-texas-renewable-energy-trading-program-ercot-1)
 
-#### [Appendix D: Glossary](appendixd.md)
+#### [Appendix D: Glossary](index.md#appendix-d-glossary-1)
 
 # Section 1: Introduction
 
