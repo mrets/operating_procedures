@@ -1,156 +1,156 @@
 Table of Contents
 
-#### [Section 1: Introduction](index.md#section-1-introduction-1)
+[Section 1: Introduction](index.md#section-1-introduction-1)
 
-#### [Section 2: Privacy and Security](index.md#section-2-privacy-and-security-1)
+[Section 2: Privacy and Security](index.md#section-2-privacy-and-security-1)
 
-#### [Section 3: Establishing an M-RETS Organization](index.md#section-3-establishing-an-m-rets-organization-1)
+[Section 3: Establishing an M-RETS Organization](index.md#section-3-establishing-an-m-rets-organization-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 3.1: Billing Information](index.md#section-31-billing-information-1)
+&nbsp;&nbsp;&nbsp;[Section 3.1: Billing Information](index.md#section-31-billing-information-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 3.2: Inactivating an Organization](index.md#section-32-inactivating-an-organization-1)
+&nbsp;&nbsp;&nbsp;[Section 3.2: Inactivating an Organization](index.md#section-32-inactivating-an-organization-1)
 
-#### [Section 4: The Tracking System](fullsection4.1.md)
+[Section 4: The Tracking System](fullsection4.1.md)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.1: Users](index.md#section-41-users-1)
+&nbsp;&nbsp;&nbsp;[Section 4.1: Users](index.md#section-41-users-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.1: User Permissions](index.md#section-411-user-permissions-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.1: User Permissions](index.md#section-411-user-permissions-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.2: Notification Settings](index.md#section-412-notification-settings-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.2: Notification Settings](index.md#section-412-notification-settings-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.3: Notification Categories](index.md#section-413-notification-categories)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.3: Notification Categories](index.md#section-413-notification-categories)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.4: Inactivating Users](index.md#section-414-inactivating-users-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.4: Inactivating Users](index.md#section-414-inactivating-users-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.2: Accounts](index.md#section-42-accounts-1)
+&nbsp;&nbsp;&nbsp;[Section 4.2: Accounts](index.md#section-42-accounts-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.1: Active Accounts](index.md#section-421-active-accounts-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.1: Active Accounts](index.md#section-421-active-accounts-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.2: Deposits to the Active Account](index.md#section-422-deposits-to-the-active-account-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.2: Deposits to the Active Account](index.md#section-422-deposits-to-the-active-account-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.3: Transfers from the Active Account](index.md#section-423-transfers-from-the-active-account-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.3: Transfers from the Active Account](index.md#section-423-transfers-from-the-active-account-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.4: Functionality of an Active Account](index.md#section-424-functionality-of-an-active-account-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.4: Functionality of an Active Account](index.md#section-424-functionality-of-an-active-account-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.5: Retirement Accounts](index.md#section-425-retirement-accounts-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.5: Retirement Accounts](index.md#section-425-retirement-accounts-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.6: Deposits to the Retirement Account](index.md#section-426-deposits-to-the-retirement-account-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.6: Deposits to the Retirement Account](index.md#section-426-deposits-to-the-retirement-account-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.7: Functionality of the Retirement Account](index.md#section-427-functionality-of-the-retirement-account-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.7: Functionality of the Retirement Account](index.md#section-427-functionality-of-the-retirement-account-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.8: Account Status](index.md#section-42-account-status-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.2.8: Account Status](index.md#section-42-account-status-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.3: Generators](index.md#section-43-generators-1)
+&nbsp;&nbsp;&nbsp;[Section 4.3: Generators](index.md#section-43-generators-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.1: Registration of a Generator](index.md#section-431-registration-of-a-generator-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.1: Registration of a Generator](index.md#section-431-registration-of-a-generator-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.2: Verification of Static Data Submitted During Generator Registration](index.md#section-432-verification-of-static-data-submitted-during-generator-registration-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.2: Verification of Static Data Submitted During Generator Registration](index.md#section-432-verification-of-static-data-submitted-during-generator-registration-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.3: M-RETS Interaction with State Commissions and Certification of Facilities for State Programs](index.md#section-433-m-rets-interaction-with-state-commissions-and-certification-of-facilities-for-state-programs-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.3: M-RETS Interaction with State Commissions and Certification of Facilities for State Programs](index.md#section-433-m-rets-interaction-with-state-commissions-and-certification-of-facilities-for-state-programs-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.4: Multi-Fuel Generators](index.md#section-434-multi-fuel-generators-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.4: Multi-Fuel Generators](index.md#section-434-multi-fuel-generators-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.5: Multiple Units on a Single Meter](index.md#section-435-multiple-units-on-a-single-meter-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.5: Multiple Units on a Single Meter](index.md#section-435-multiple-units-on-a-single-meter-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.6: Distributed Generation Aggregation](index.md#section-436-distributed-generation-aggregation-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.6: Distributed Generation Aggregation](index.md#section-436-distributed-generation-aggregation-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.7: Annual Review of Generators](index.md#section-437-annual-review-of-generators-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.7: Annual Review of Generators](index.md#section-437-annual-review-of-generators-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.8: Changes to Static Data](index.md#section-438-changes-to-static-data-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.8: Changes to Static Data](index.md#section-438-changes-to-static-data-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.9: Generator Inactivation](index.md#section-439-generator-inactivation-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.9: Generator Inactivation](index.md#section-439-generator-inactivation-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.10: Generator Suspension](index.md#section-4310-generator-suspension-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.10: Generator Suspension](index.md#section-4310-generator-suspension-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.11: Generator Termination](index.md#section-4311-generator-termination-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.11: Generator Termination](index.md#section-4311-generator-termination-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.12: Changing the Organization to which the Generator is Associated](index.md#section-4312-changing-the-organization-to-which-the-generator-is-associated-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.12: Changing the Organization to which the Generator is Associated](index.md#section-4312-changing-the-organization-to-which-the-generator-is-associated-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.13: Assignment of Rights of Registration – Designation of Responsible Party](index.md#section-4313-assignment-of-rights-of-registration----designation-of-responsible-party)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.13: Assignment of Rights of Registration – Designation of Responsible Party](index.md#section-4313-assignment-of-rights-of-registration----designation-of-responsible-party)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.14: Termination of Rights of Registration](index.md#section-4314-termination-of-rights-of-registration-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.14: Termination of Rights of Registration](index.md#section-4314-termination-of-rights-of-registration-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.15: Changing Rights of Registration](index.md#section-4315-changing-rights-of-registration-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.3.15: Changing Rights of Registration](index.md#section-4315-changing-rights-of-registration-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.4: Generation](index.md#section-44-generation-1)
+&nbsp;&nbsp;&nbsp;[Section 4.4: Generation](index.md#section-44-generation-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.1: Acceptable Format](index.md#section-441-acceptable-format-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.1: Acceptable Format](index.md#section-441-acceptable-format-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.2: Uploading Time Restrictions](index.md#section-442-uploading-time-restrictions-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.2: Uploading Time Restrictions](index.md#section-442-uploading-time-restrictions-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.3: Requirements of Data Reporting Entities (QREs)](index.md#section-443-requirements-of-data-reporting-entities-qres-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.3: Requirements of Data Reporting Entities (QREs)](index.md#section-443-requirements-of-data-reporting-entities-qres-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.4: Measurement of Generation and Adjustments](index.md#section-444-measurement-of-generation-and-adjustments-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.4: Measurement of Generation and Adjustments](index.md#section-444-measurement-of-generation-and-adjustments-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.5: Changes to Issuances (Rollbacks and Prior Period Adjustments)](index.md#section-445-changes-to-issuances-rollbacks-and-prior-period-adjustments-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.5: Changes to Issuances (Rollbacks and Prior Period Adjustments)](index.md#section-445-changes-to-issuances-rollbacks-and-prior-period-adjustments-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.6: Data Transmittal](index.md#section-446-data-transmittal-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.4.6: Data Transmittal](index.md#section-446-data-transmittal-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.5: Renewable Energy Certificates (RECs)](index.md#section-45-renewable-energy-certificates-recs-1)
+&nbsp;&nbsp;&nbsp;[Section 4.5: Renewable Energy Certificates (RECs)](index.md#section-45-renewable-energy-certificates-recs-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.1: Creation of Certificates](index.md#section-451-creation-of-certificates-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.1: Creation of Certificates](index.md#section-451-creation-of-certificates-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.2: Data Fields Carried on Each Certificate](index.md#section-452-data-fields-carried-on-each-certificate-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.2: Data Fields Carried on Each Certificate](index.md#section-452-data-fields-carried-on-each-certificate-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.3: Retirement of Certificates](index.md#section-453-retirement-of-certificates-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.3: Retirement of Certificates](index.md#section-453-retirement-of-certificates-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.4: Retirement Types](index.md#section-454-retirement-types-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.4: Retirement Types](index.md#section-454-retirement-types-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.5: Forced Retirement of Certificates](index.md#section-455-forced-retirement-of-certificates-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.5.5: Forced Retirement of Certificates](index.md#section-455-forced-retirement-of-certificates-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.6: Transactions](index.md#section-46-transactions-1)
+&nbsp;&nbsp;&nbsp;[Section 4.6: Transactions](index.md#section-46-transactions-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.1: Transferring Certificates between Organizations](index.md#section-461-transferring-certificates-between-organizations-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.1: Transferring Certificates between Organizations](index.md#section-461-transferring-certificates-between-organizations-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.2: Certificate Imports](index.md#section-462-certificate-imports-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.2: Certificate Imports](index.md#section-462-certificate-imports-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.3: Automatic Recurring Transfers](index.md#section-463-automatic-recurring-transfers-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.3: Automatic Recurring Transfers](index.md#section-463-automatic-recurring-transfers-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.4: Irrevocable Automatic Recurring Transfers](index.md#section-464-irrevocable-automatic-recurring-transfers-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.4: Irrevocable Automatic Recurring Transfers](index.md#section-464-irrevocable-automatic-recurring-transfers-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.5: Export of Certificates](index.md#section-465-export-of-certificates-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.5: Export of Certificates](index.md#section-465-export-of-certificates-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.6: Re-Import of Exported Certificates](index.md#section-466-re-import-of-exported-certificates-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.6.6: Re-Import of Exported Certificates](index.md#section-466-re-import-of-exported-certificates-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.7: Programs](index.md#section-47-programs-1)
+&nbsp;&nbsp;&nbsp;[Section 4.7: Programs](index.md#section-47-programs-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.7.1: Establishing a Program](index.md#section-471-establishing-a-program-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.7.1: Establishing a Program](index.md#section-471-establishing-a-program-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.7.2: Participating in a Program](index.md#section-472-participating-in-a-program-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.7.2: Participating in a Program](index.md#section-472-participating-in-a-program-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.8: API](index.md#section-48-api-1)
+&nbsp;&nbsp;&nbsp;[Section 4.8: API](index.md#section-48-api-1)
 
-#### [Section 5: Wisconsin RPS](index.md#section-5-wisconsin-rps-1)
+[Section 5: Wisconsin RPS](index.md#section-5-wisconsin-rps-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 5.1: WI Bankable](index.md#section-51-wi-bankable-1)
+&nbsp;&nbsp;&nbsp;[Section 5.1: WI Bankable](index.md#section-51-wi-bankable-1)
 
-##### &nbsp;&nbsp;&nbsp;[Section 5.2: WI Non-Bankable](index.md#section-52-wi-non-bankable-1)
+&nbsp;&nbsp;&nbsp;[Section 5.2: WI Non-Bankable](index.md#section-52-wi-non-bankable-1)
  
-##### &nbsp;&nbsp;&nbsp;[Section 5.3: RRC Adjusted Quantity](index.md#section-53-rrc-adjusted-quantity-1)
+&nbsp;&nbsp;&nbsp;[Section 5.3: RRC Adjusted Quantity](index.md#section-53-rrc-adjusted-quantity-1)
 
-#### [Section 6: Public Reports](index.md#section-6-public-reports-1)
+[Section 6: Public Reports](index.md#section-6-public-reports-1)
 
-#### [Section 7: Acknowledgements](index.md#section-7-acknowledgements-1)
+[Section 7: Acknowledgements](index.md#section-7-acknowledgements-1)
 
-#### [Appendix A: Generator Static Data Fields](index.md#appendix-a-generator-static-data-fields-1)
+[Appendix A: Generator Static Data Fields](index.md#appendix-a-generator-static-data-fields-1)
 
-#### [Appendix B: Fuel Type & Fuel Source](index.md#appendix-b-fuel-type--fuel-source-1)
+[Appendix B: Fuel Type & Fuel Source](index.md#appendix-b-fuel-type--fuel-source-1)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix B-1: Fuel Type List](index.md#fuel-type)
+&nbsp;&nbsp;&nbsp;[Appendix B-1: Fuel Type List](index.md#fuel-type)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix B-2: Fuel Source List](index.md#fuel-source)
+&nbsp;&nbsp;&nbsp;[Appendix B-2: Fuel Source List](index.md#fuel-source)
 
-#### [Appendix C: Transfer Appendix](index.md#appendix-c-transfer-appendix-1)
+[Appendix C: Transfer Appendix](index.md#appendix-c-transfer-appendix-1)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix C-1: Michigan Renewable Energy Certification System Imports](index.md#appendix-c-1-michigan-renewable-energy-certification-system-imports-1)
+&nbsp;&nbsp;&nbsp;[Appendix C-1: Michigan Renewable Energy Certification System Imports](index.md#appendix-c-1-michigan-renewable-energy-certification-system-imports-1)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix C-2: North Carolina Renewable Energy Tracking System Imports](index.md#appendix-c-2-north-carolina-renewable-energy-tracking-system-imports-1)
+&nbsp;&nbsp;&nbsp;[Appendix C-2: North Carolina Renewable Energy Tracking System Imports](index.md#appendix-c-2-north-carolina-renewable-energy-tracking-system-imports-1)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix C-3: North American Renewable Registry System Imports](index.md#appendix-c-3-north-american-renewable-registry-system-imports-1)
+&nbsp;&nbsp;&nbsp;[Appendix C-3: North American Renewable Registry System Imports](index.md#appendix-c-3-north-american-renewable-registry-system-imports-1)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix C-4: Texas Renewable Energy Trading Program (ERCOT)](index.md#appendix-c-4-texas-renewable-energy-trading-program-ercot-1)
+&nbsp;&nbsp;&nbsp;[Appendix C-4: Texas Renewable Energy Trading Program (ERCOT)](index.md#appendix-c-4-texas-renewable-energy-trading-program-ercot-1)
 
-#### [Appendix D: Glossary](index.md#appendix-d-glossary-1)
+[Appendix D: Glossary](index.md#appendix-d-glossary-1)
 
 # Section 1: Introduction
 
