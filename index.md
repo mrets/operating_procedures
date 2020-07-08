@@ -1738,3 +1738,249 @@ At the time of publication, the M-RETS Board of Directors included:
 | WHR | Energy produced by a Generating Unit with a nameplate capacity of not more than fifteen megawatts that converts the otherwise lost energy from the heat exhaust stacks or pipes to electricity and that does not combust additional fossil fuel. &quot;Recycled Energy&quot; does not include energy produced by any system that uses energy, lost or otherwise, from a process whose primary purpose is the generation. |
 | Wind | Wind |
 | Waste Oil | Waste Oil |
+
+# Appendix C: Transfer Appendix
+
+**Export Transfer**
+
+M-RETS will work with Compatible Tracking Systems (CTSs) to ensure a credible and reliable method for exporting RECs to a CTS. Currently approved CTSs for exporting are:
+
+- Michigan Renewable Energy Certification System (MIRECS)
+- North American Renewables Registry (NAR)
+- North Carolina Renewable Energy Tracking System (NC-RETS)
+
+The processes for export and import transfers are identical. Please see the import transfer process below for more information on how to complete a transfer with a CTS.
+
+**Import Transfers**
+
+M-RETS will work with a CTS to ensure a credible and reliable method for importing RECs from CTS. Currently approved CTSs for importing are:
+
+- Michigan Renewable Energy Certification System (MIRECS)
+- North American Renewables Registry (NAR)
+- North Carolina Renewable Energy Tracking System (NC-RETS)
+- Texas Renewable Energy Trading Program (ERCOT)
+
+**The following Import Process defines how Certificates are imported to M-RETS from Compatible Tracking Systems (CTS)**
+
+**Process**
+
+1. CTS Organization selects a batch of Certificates and initiates an export transfer in a CTS. As part of the export process the CTS Organization is asked to select from a drop-down menu which registry the Certificates should be transferred to what Organization.
+2. M-RETS will receive a notification that an import has been initiated. The CTS Administrator will provide an Import File to M-RETS with all applicable data as required by M-RETS.
+3. M-RETS confirms that the Generating Unit has previously been approved as an Import Generator in M-RETS. If yes, transaction will proceed. If no, M-RETS will complete the Import Generator Certification with the applicable Eligibility Flags verified using the information provided in the Import File.
+4. If M-RETS cannot validate the Import Generator meets the eligibility criteria for M-RETS, M-RETS informs the CTS Administrator of the unsuccessful transfer by email.
+5. If the transfer is approved, M-RETS will allow the applicable Certificates to be issued and delivered to the designated M-RETS Organization. The import serial number uses the standard M-RETS format with the CTS name inserted into the format, for example:
+
+_MIRECS-123-MI-01-2009-123-1 to 1_
+
+## Appendix C-1: Michigan Renewable Energy Certification System Imports
+
+MIRECS issues RECs and in some cases Incentive Renewable Energy Certificates (IRECs) for generation which meets the following requirements:
+
+1. Two renewable energy Certificates for each megawatt hour of electricity from solar power.
+2. 1/5 renewable energy credit for each megawatt hour of electricity generated from a renewable energy system, other than wind, at peak demand time as determined by the commission.
+3. 1/5 renewable energy credit for each megawatt hour of electricity generated from a renewable energy system during off-peak hours, stored using advanced electric storage technology or a hydroelectric pumped storage facility, and used during peak hours.
+4. 1/10 renewable energy credit for each megawatt hour of electricity generated from a renewable energy system constructed using equipment made in this state as determined by the commission.
+5. 1/10 renewable energy credit for each megawatt hour of electricity from a renewable energy system constructed using a workforce composed of residents of this state
+
+M-RETS defines a REC as 1 MWh of renewable energy. As a result, M-RETS will realign the MIRECS REC definition with M-RETS when a REC is exported. MIRECS will use the original ratio of RECs to IRECs from the original facility and vintage and apply it to the quantity of RECs to be exported. The ratio will effectively reduce the RECs to be exported ensuring the export quantity represents 1 MWh. This will work in the following way:
+
+When an import is initiated, MIRECS will display the total number of MWhs being exported and the corresponding number of MIRECS RECs being retired. The amount of MWh exported will be equal to the total MIRECS RECs selected for export multiplied by the corresponding MWh-to-REC ratio. For example, an Organization selects to export 50 RECs with a MWh-to-REC ratio of 0.5. In this case 50 RECs will be retired and 25 MWh will be processed for import into M-RETS. The table below shows the process for a variety of different ratios:
+
+| **Scenario** | **MWh of Generation** | **MIRECS RECs**** Issued **|** MIRECS IRECs ****issued** | **MWh-to-RECs ratio** | **RECs/IRECs selected for export from MIRECS** | **Import RECs issued in MRETS** | **RECs/IRECs remaining in MIRECS** | **Equivalent MWh&#39;s of generation remaining in MIRECs** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **1** | 500 | 500 | 125 | 0.8 | 500 | 400 | 125 | 100 |
+| **2** | 1000 | 1000 | 250 | 0.8 | 1000 | 800 | 250 | 200 |
+| **3** | 500 | 500 | 250 | 0.67 | 500 | 333 | 250 | 167 |
+| **4** | 1000 | 1000 | 500 | 0.67 | 1000 | 667 | 500 | 333 |
+| **5** | 500 | 500 | 500 | 0.5 | 500 | 250 | 500 | 250 |
+| **6** | 1000 | 1000 | 1000 | 0.5 | 1000 | 500 | 1000 | 500 |
+| **7** | 500 | 500 | 1000 | 0.33 | 500 | 167 | 1000 | 333 |
+| **8** | 1000 | 1000 | 2000 | 0.33 | 1000 | 333 | 2000 | 667 |
+
+
+
+The end result of this process, for example, is that for scenario 1 above, a total of 525 Certificates are in circulation among the various tracking systems: 400 RECs in M-RETS and 125 RECs in MIRECS. The 400 RECs in M-RETS represent 400 MWh&#39;s of generation. The 125 RECs remaining in MIRECS still carry the MWh-to-REC ratio of 0.8 and therefore still represent only 100 MWh of generation. This is the desired result as the Certificates are based on 500 MWh of generation.
+
+By applying a ratio that represents the proportionate amount of actual MWh of renewable generation all RECs (including IRECs) in MIRECS have the same value. Any REC or IREC can be exported to M-RETS because it will be &quot;discounted&quot; to reflect the additional Michigan incentive Certificates created from the MWh of generation. Ultimately, the information used for import by the tracking systems will be MWh of renewable generation. This will allow each tracking system to apply whatever types of incentives are desired, if any, to the various MWh imported.
+
+## Appendix C-2: North Carolina Renewable Energy Tracking System Imports
+
+Imports from NC-RETS require an attestation because the North Carolina RPS statute states that certain attributes are not included in a REC for compliance purposes:
+
+&quot;A renewable energy Certificate does not include the related emission reductions, including, but not limited to, reductions of sulfur dioxide, oxides of nitrogen, mercury, or carbon dioxide.&quot;
+
+In contrast, M-RETS expects that its Certificates be &quot;whole Certificates,&quot; meaning Certificates &quot;where none of the renewable attributes have been separately sold, given, or otherwise transferred to another party by a deliberate act of the Certificate owner. Renewable attributes shall include the environmental attributes that are defined as any and all Certificates, benefits, emissions reductions, offsets, and allowances, howsoever entitled, directly attributable to the generation from the Generating Unit(s).&quot;
+
+Therefore, in order to prevent double claims on the emissions of the facility that generated the Certificate, imports from NC-RETS require assurance that the emission reductions (if any) have not been sold off to a third party.
+
+To ensure any RECs imported into M-RETS from NC-RETS meet M-RETs definition of a REC an attestation form must be completed. The entity importing the RECs must attest that no attributes have been transferred separately from the RECs being imported, and specifically that the emissions attributes have not been transferred to any other party. The attestation form must be reviewed and approved by M-RETS for any imports from NC-RETS to be allowed.
+
+## Appendix C-3: North American Renewable Registry System Imports
+
+There are no significant differences between the M-RETS and NAR definition of a REC. As result RECs may be imported from NAR by following the process outlined in Appendix C.
+
+## Appendix C-4: Texas Renewable Energy Trading Program (ERCOT)
+
+The rules governing the Texas Renewable Energy Credit Trading Program do not provide a directive on exporting or importing files with other REC Trading Programs.  Reasons to retire a REC in the Texas REC Trading Program include mandatory (compliance with the RPS mandate), voluntary and expired (still in the trading program when the REC reaches end of life). The Texas REC Trading Program does not export the REC, and any use of a REC retired in the Texas REC Trading Program by another REC Trading Program would be subject to that Trading Programs rules.
+
+
+
+In 2018 ERCOT added a process whereby Account holders can identify the reason for retiring a REC by adding an optional field where an Account holder could leave the field empty or enter &quot;green-e&quot; or &quot;export&quot;. To complete an export to M-RETS, the ERCOT Account holder must enter in the empty field, &quot;Export to M-RETS&quot; along with the date of the transaction. For example, if the export is initiated on October 1, 2018, for M-RETS to process the Export the field must read, &quot;Export to M-RETS effective 10/01/2018.&quot;
+
+This is what the retirement should look like in the ERCOT system.
+
+
+Once the action is complete in the ERCOT system the User must submit a Summary Report to M-RETS ([systemadmin@mrets.org](mailto:systemadmin@mrets.org)). In May 2018, ERCOT posted updates they made to the system that includes how to access and send the reports which is [accessible here](http://www.ercot.com/content/wcm/key_documents_lists/139215/13._Texas_REC_Trading_Program_Updates_May_2018.pptx). The email sent should look like the below example posted by ERCOT:
+
+The ERCOT Account Holder must also send an email to M-RETS with the following information:
+
+### Declaration of Exporting Account Holder
+
+I, (print name and title) \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, declare that I am the lawful representative of (Account Holder Name) \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, and that I wish to export the Certificates identified in this transaction from ERCOT to M-RETS. I further declare \_\_\_ (electronic initial) that the Certificates to be imported are Whole Certificates as defined by M-RETS and do not contain any Compliance Premiums, Bonus RECs, or any other Certificates that are above and beyond the electricity generated by the facility according to all M-RETS Operating Procedures. Furthermore, all the generation and environmental attributes, including the attributes indicating the level of direct emissions from the generating facility, and also including any carbon offsets or avoided emissions (if any are authorized), were transferred to the M-RETS Account Holder when it acquired the Certificates, and to the best of my knowledge, these attributes have not been sold, marketed or otherwise claimed by any party other than Account Holder.
+
+Account Holder Representative Electronic Signature: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Printed Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Title: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+ERCOT System Information:
+Project Name or Facility ID:
+Quantity: [total number of RECs exported from ERCOT to M-RETS]
+Vintage: [Month/Year]
+Serial number start and serial number end: [ex. 000001 – 000031]
+
+Receiving Organization Holder Info:
+System:
+Organization at destination:
+Organization ID at destination:
+Additional notes:
+
+Once M-RETS processes the Export from ERCOT to M-RETS, the Receiving M-RETS Account Holder must go into their Account and accept the transfer. Failure to include the declaration may result in a delay to the desired export of the RECs from ERCOT to M-RETS.
+
+# Appendix D: Glossary
+
+**Account** : M-RETS provides several different Accounts for holding and retiring M-RETS Certificates
+
+**Active Account** : The Active Account is the holding place for all active M-RETS Certificates.   If the Organization is a registered Generator, or is the designated representative of a registered Generator, their Active Account will be the first point of deposit for any M-RETS Certificates created that are associated with the Generating Unit ID number, unless the Certificate is subject to an automatic recurring transfer.  An Active Account may be associated with one or more Generating Units.
+
+**Retirement Account** : A Retirement Account is used as a repository for M-RETS Certificates that the Organization wants to designate as retired and remove from circulation. Once a Certificate has been transferred into an M-RETS Retirement Account, it cannot be transferred again to any other Account.
+
+**Active Account** : _See_ Account
+
+**Active Certificates** : Any Certificate that is held in an M-RETS Active Account. Active Certificates may be traded, transferred, exported, retired, etc. at the discretion of the holder of the Active Account or his/her Agent.
+
+**Agent** : Any party other than the Organization that has been granted access by the Organization to &quot;use&quot; their Organization. Agents may include viewing information, performing transactions, changing personal information etc. The Organization may at any time revoke the permissions granted to an Agent by notifying M-RETS. The M-RETS System will be able to track the specific activities of each Agent through the unique User ID and password. Also known as a User.
+
+**Automatic Recurring Transfers:       ** Normally, the first point of deposit for M-RETS Certificates is the Account to which a Generating Unit selects as its issuance Account. With an Automatic Recurring Transfer, the Organization to which the Generating Unit is registered requests that the Certificates be directly deposited into another Account when the Certificates are created. Automatic Recurring Transfers may be set up for transfers to:
+
+1. One internal Account
+2. Multiple internal Accounts
+3. An external Organization within M-RETS
+4. A Compatible Certificate Tracking System (Export)
+
+Automatic Recurring Transfers can be set as Irrevocable during the confirmation of the transfer process. However, only M-RETS can edit Irrevocable Automatic Recurring Transfers once they are set.
+
+**Certificate** : The term &quot;Certificate,&quot; as used in this document, refers to an M-RETS Certificate of generation, or M-RETS Certificate. An M-RETS Certificate represents all the attributes from one MWh of electricity generation from a renewable Generating Unit registered with M-RETS or a Certificate imported from a Compatible Tracking System (CTS) and converted to an M-RETS Certificate. M-RETS will create exactly one Certificate per MWh of generation that occurs from a registered Generating Unit or that is imported from a CTS. See also definition of &quot;Whole Certificate.&quot;
+
+**Compatible Tracking System** : A Compatible Tracking System (CTS) is a generation tracking system that meets the guidelines that M-RETS has established to ensure the security and integrity of the Certificate information and reciprocity of Certificate conversion. Consequently, the transfer of Certificates between CTSs is allowed. Transfers cannot occur until guidelines have been established for converting Certificates from another tracking system into M-RETS Certificates. Please consult the Transfer Appendix for a current list of Compatible Tracking Systems.
+
+**Control Area/Control Area Operator** : An electric system or systems, bounded by interconnection metering and telemetry, capable of controlling generation to maintain its interchange schedule with other Control Areas and contributing to frequency regulation of the Interconnection. For the purposes of this document, a Control Area is defined in broad terms to include transmission system operations, market, and load-serving functions within a single Organization. A Control Area operator may be a system operator, a transmission grid operator, or a utility.
+
+**Conversion** : A process by which Certificates from a CTS are made available for import into M-RETS. The process involves designating the Certificate as exported from the compatible tracking system according to the protocol agreed upon jointly by the Administrator of the CTS and M-RETS. After such designation is made, M-RETS will issue a corresponding M-RETS Certificate that can be used within M-RETS.
+
+**Creation Date** : The date that M-RETS Certificates are created. Certificates are created monthly, seven days after the Organization has accepted the generation amount of the Generation Activity Log.
+
+Customer-Sited Distributed Generation: Generation interconnected behind a retail customer meter and therefore not directly interconnected with either the distribution system or transmission system (including net metered facilities).
+
+**Date of First Operation** : The month and year a Generating Unit first began commercial operation or for non-commercial facilities, the date approved by the licensing or permitting agency. For repowered or refurbished Generating Units, this is the date of original operation, not the date of the repower or refurbishing. For incremental capacity, this is the date of original operation for the non-incremental capacity. M-RETS may refine the definition of Date of First Operation for small non-commercial Generating Units in the future.
+
+**Dispute Resolution Process** : Administrative process managed by M-RETS to resolve disputes regarding M-RETS functionality and actions, including but not limited to disputes related to the number of Certificates in an Account, static data, Organization requests to reverse permanent transactions (such as retirements), and Certificate creation.
+
+**Dynamic Data** : Dynamic data is variable information that is associated with a specific MWh from a registered Generating Unit, such as Certificate serial number or date of generation. See Appendix B-1 for a list of dynamic data fields.
+
+**Emission Factor** : The emission factor of a Generating Unit indicates the amount of emissions released in terms of mass of emitted substance per MWh.
+
+**Facility/Generating Facility** : _See_ Generator.
+
+**Fuel Source** : The specific source or origin of the fuel being used at a Generating Unit or Generator. Fuel source will be indicated during Generator registration if the fuel type has more than one potential fuel source and where indication of the fuel source is relevant to eligibility for one or more state or provincial program. A list of fuel sources is available in Appendix B-4.
+
+**Fuel Type** : The type of fuel or other naturally occurring energy source that the Generating Unit or Generator uses to create electricity. A list of fuel types is available in Appendix B-4.
+
+**Generating Unit** : A piece of equipment or machinery that can generate electricity.
+
+**Generation Activity Log** : The Generation Activity Log is an electronic ledger where generation is posted prior to Certificate creation. Each time generation data is received by M-RETS for a particular Generating Unit, the date and quantity of MWhs is posted to the Generation Activity Log. Similarly, adjustments received will be posted likewise.
+
+**Generation Month** : The generation month is the calendar month in which the generation occurred.
+
+**Generator Registration Agreement** : The agreement between an Organization and M-RETS which sets forth terms and conditions for use of the M-RETS System.
+
+**Generator** : An electric generating facility consisting of one or more Generating Units with the same essential generation characteristics and whose output is measured with a single certified meter.
+
+**Incremental Capacity** : Nameplate capacity added to an existing Generator. Incremental Capacity may consist of one or more new Generating Units. Incremental capacity does not include repowered capacity
+
+**Interface Control Document** : An Interface Control Document contains the protocol for collecting and transferring generation data from participating control areas and other reporting entities to M-RETS for the purposes of creating M-RETS Certificates. The Interface Control Document will identify M-RETS Registered Generators to be reported for that interface, as well as the collection of information such as meter IDs, data format, communication protocols, timing, and security requirements for data collection.
+
+**Load Serving Entity (LSE)**: This term refers to any Organization selling retail electricity to end Users, such as investor owned utilities, municipal utilities, and electric coops. Sometimes referred to as an &quot;electric provider.&quot; In M-RETS LSE can also mean Organizations that aggregate for member or customer LSEs.
+
+**M-RETS Administrator** : M-RETS is the entity with the authority to administer or oversee the administration and implementation of the M-RETS Operating Rules.
+
+**M-RETS Board** : The Board of Directors of Midwest Renewable Energy Tracking System, Inc., a Wisconsin nonprofit corporation.
+
+**M-RETS Certificates** : _See_ Certificate.
+
+**Marketer** : Any person that either purchases RECs for sale to others or a broker that arranges sales of RECs between two or more parties is defined as a marketer.
+
+**Month and Year of Generation** : _See_ Vintage.
+
+**Multi-Fuel Indicator** : An indication that the Generating Unit or Generator is capable of using more than one fuel type to generate electricity. The multi-fuel indicator will be selected during registration or later if the Generating Unit or Generator is converted to multi-fuel capability after registration is complete.
+
+**Nameplate Capacity/Maximum Generator Nameplate Capacity** : The maximum rated output of a Generator, prime mover, or other electric power production equipment under specific conditions designated by the manufacturer. Size classification is based on Nameplate Capacity.
+
+**Organization** : An M-RETS Organization is a party that has registered with M-RETS and has established an Organization within M-RETS. Also referred to as a Subscriber or User.
+
+**Program** : An M-RETS feature that is created to prevent irrelevant Certificates from being retired. This is based on a predetermined ruleset that narrows the field of acceptable Certificates. Users may create Programs for internal or external use.
+
+**External Program** : A Program that is created by a Program Administrator, such as a Regulator, that allows one or multiple Organizations participate.
+
+**Qualified Reporting Entity** : A Reporting Entity that is (1) the control area operator, interconnecting utility, scheduling coordinator, or an independent third-party meter reader and is not affiliated with the owner of the Generator for which the entity is reporting; or (2) the control area operator or interconnecting utility and that is affiliated with the Generator owner, but having sufficient segregation of duties such that the person performing the Qualified Reporting Entity duties does not have access to transfer or retire Certificates created for that Generator. A Qualified Reporting Entity must enter into an agreement with M-RETS describing the terms and conditions under which the Qualified Reporting Entity agrees to conduct business with M-RETS and must report data in accordance with the standards set forth in these Operating Procedures
+
+**Registered Generator** : A renewable energy source, known as a Generating Facility or Generator, that has registered with M-RETS.
+
+**Renewable Portfolio Standard (RPS)**: Generally, a Renewable Portfolio Standard is a legislative or administrative requirement on electrical utilities or load-serving entities in a jurisdiction to include a designated percentage of renewable electricity in their generation/retail portfolio.
+
+**Reporting Entities** : A Reporting Entity is an entity reporting meter reading and other generation data to M-RETS. Reporting Entities may include Qualified Reporting Entities, and for certain Customer-Sited Distributed Generation, the generation owner or customer (see Self-Reporting Generator). The protocol for such reporting is the Interface Control Document.
+
+**Reporting Entity Terms of Use** : The agreement between a reporting entity and M-RETS that describes the terms and conditions under which the reporting entity agrees to exchange information and conduct business with M-RETS.
+
+**Repowered Capacity** : Nameplate capacity added to an existing electric generating facility that replaces generating capacity which is removed from operation.
+
+**Repowered Indicator** : An indication that the Generating Unit or part or all of the Generator has been repowered. The repowered indicator will be selected during registration or at a later date if the repowering occurs after registration is complete.
+
+**Repowered** : A Generating Unit or Generator is repowered when existing electric generating nameplate capacity is removed and replaced with new generating capacity. Repowering may consist of replacing existing capacity with the same or different electric generation technology.
+
+**Responsible Party** : An M-RETS Organization who has been assigned the Rights of Registration for a given Generating Unit. This gives the designated Organization full and sole management and authority over the transactions and activities related to the Generating Unit within M-RETS.
+
+**Retirement Account** : _See_ Account
+
+**Retirement of Certificates** : Retirement of Certificates is an action taken to remove a Certificate from circulation within M-RETS. Retirement may be initiated only by the M-RETS Organization for Certificates in his/her own Account(s). Retirement is effectuated by transferring Certificates into a Retirement Account.
+
+**Revenue Meter** : As of January 1, 2020, M-RETS no longer requires Generators use a revenue quality meter. For Generators that are interconnected to a utility or control area operator, a revenue-quality meter is any meter used by the reporting control area operator for settlements. The data must be electronically collected by a meter data acquisition system, such as a MV-90 system, or pulse accumulator readings collected by the control area&#39;s Energy Management System and verified through a control area checkout/energy Accounting or settlements process which occurs monthly. The preferred source for the data is a meter data acquisition system. If the control area does not have an electronic source for collecting revenue meter data, then manual meter reads will be accepted.
+
+**Meter Output** : The energy delivered into the transmission grid at the high side of the transformer. The data must be electronically collected by a meter data acquisition system, such as a MV-90 system, or pulse accumulator readings collected by the control area&#39;s energy management system, and verified through a control area checkout/energy Accounting or settlements process that occurs at the end of each month.
+
+**Self-Reporting Generator** : A Generator that does not use a QRE to report generation. All Certificates from Self-Reporting Generators will be indicated as self-reported.
+
+**Static Data** : Static data describes the attributes of the Generating Unit. Static information generally includes information related to the characteristics of the generation facility such as technology type, ownership or location. See Appendix B-1 for a list of M-RETS Static Data Fields.
+
+**Station Service** : The electric supply for the ancillary equipment used to operate a generating station or substation.
+
+**Vintage** : Month and Year of generation. The vintage on the issued Certificate will be the last month and year of generation contributing to an accumulated MWh.
+
+**Whole/ Whole Certificate** : A &quot;Whole Certificate&quot; is one where none of the renewable attributes have been separately sold, given, or otherwise transferred to another party by a deliberate act of the Certificate owner. Renewable attributes shall include the environmental attributes that are defined as any and all Certificates, benefits, emissions reductions, offsets, and allowances, howsoever entitled, directly attributable to the generation from the Generating Unit(s). Renewable attributes do not include greenhouse gas avoidance Certificates based on the upstream capture of methane combined with the subsequent destruction of the methane. Individual states and provinces may create different definitions of renewable Certificates. M-RETS may consider revision of the definition of an M-RETS Certificate in the future if needed to better meet the needs of state and provincial programs. See also definition of &quot;Certificate.&quot;
+
+**Wholesale Generation Also Serving On-Site Loads** : Generators interconnected to the transmission systems, but with on-site loads other than station-service drawing service from the Generator before the control area&#39;s metering point. Such Generators either (i) have the net generation supplied to the grid reportable by the control area to M-RETS, or (ii) are not reportable by the control area to M-RETS on a unit-specific basis.
+
+**Wisconsin Electric Provider** : An electric utility or retail electric cooperative serving customers in the State of Wisconsin. A list of electric providers eligible to establish an Organization will be provided to M-RETS by the Wisconsin Public Service Commission.
