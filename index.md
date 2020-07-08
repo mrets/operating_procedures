@@ -14,7 +14,7 @@
 
 &nbsp;&nbsp;&nbsp;[Section 3.2: Inactivating an Organization](index.md#section-32-inactivating-an-organization)
 
-[Section 4: The Tracking System](fullsection4.1.md)
+[Section 4: The Tracking System](index.md#section-4-the-tracking-system)
 
 &nbsp;&nbsp;&nbsp;[Section 4.1: Users](index.md#section-41-users)
 
