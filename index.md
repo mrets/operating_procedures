@@ -1,6 +1,6 @@
 ![](https://www.mrets.org/wp-content/uploads/2020/06/mrets_electricity-1024x228.png) ![](https://www.mrets.org/wp-content/uploads/2020/06/mrets_thermal-1024x243.png)
 
-**Table of Contents
+**Table of Contents**
 
 [Section 1: Introduction](index.md#section-1-introduction-1)
 
