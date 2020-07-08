@@ -166,19 +166,26 @@ M-RETS offers a comprehensive list of training documentation with detailed walkt
 
 M-RETS staff were all involved with the creation and editing of these Operating Procedures. At the time of creation, M-RETS staff consisted of:
 
+<p align="center">  
+  <b>Benjamin Gerber</b>, Executive Director
+  </p>
+  
 <p align="center">
+  <b>Tanya Gajewska</b>, Chief Administrative Officer
+  </p>
+  
+  <p align="center">
+  <b>Rosie Hoyem</b>, Program Manager
+  </p>
 
-Benjamin Gerber, Executive Director
+  <p align="center">
+<b>Sean Darling</b>, Technical Program Coordinator
+  </p>
+  
+<p align="center">    
+  <b>John Malone</b>, Senior Developer
+  </p>
 
-Tanya Gajewska, Chief Administrative Officer
-
-Rosie Hoyem, Program Manager
-
-Sean Darling, Technical Program Coordinator
-
-John Malone, Senior Developer
-
-</p>
 
 # Section 2: Privacy and Security
 
