@@ -12,11 +12,11 @@ Table of Contents
 
 #### [Section 4: The Tracking System](fullsection4.1.md)
 
-##### &nbsp;&nbsp;&nbsp;[Section 4.1: Users](section4.1.md)
+##### &nbsp;&nbsp;&nbsp;[Section 4.1: Users](index.md#section-41-users-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.1: User Permissions](section4.1.1.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.1: User Permissions](index.md#section-411-user-permissions-1)
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.2: Notification Settings](section4.1.2.md)
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.2: Notification Settings](index.md#section-412-notification-settings-1)
 
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Section 4.1.4: Inactivating Users](section4.1.4.md)
 
@@ -301,7 +301,7 @@ There are three notification settings:
 2. Issuances
 3. Retirements
 
-Section 4.1.3: Notification Categories
+### Section 4.1.3: Notification Categories
 
 #### Section 4.1.3.1: Transfers
 
