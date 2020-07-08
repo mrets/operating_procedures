@@ -1216,3 +1216,525 @@ M-RETS and/or appropriate regulator(s) shall have sole discretion to
 retire any Active Certificates for mistake, fraud or other reasonable
 cause consistent with these Operating Procedures, the Terms of Use
 and/or the purposes of the M-RETS program.
+
+Section 4.6: Transactions
+-------------------------
+
+### Section 4.6.1: Transferring Certificates between Organizations
+
+M-RETS Users may transfer active Certificates to:
+
+1.  Another Organization
+
+2.  Another active Account
+
+3.  To a compatible tracking system
+
+After a User initiates a transfer ("Transferor"), the transferred
+Certificates enter a 'Pending' state. This effectively "freezes" the
+Certificates and the System will prevent the Transferor from making
+additional transfers of Certificates in Pending status.
+
+The Pending Transactions table lists all Pending Transactions for both
+the Transferor and Transferee. Once the Transferee confirm the transfer,
+both the Transferor and Transferee receive an email if their
+notifications are enabled.
+
+The Transferor may cancel any transfer before a Transferee confirms the
+transfer by withdrawing the transfer in the Pending Transactions table.
+The Transferee may reject a transfer prior to acceptance. M-RETS will
+notify both the Transferor and Transferee should either party withdraw
+or reject a transfer.
+
+### Section 4.6.2: Certificate Imports
+
+A Compatible Certificate Tracking System is a generation tracking system
+that has an operating agreement with M-RETS. Only a Compatible
+Certificate Tracking System may import Certificates into M-RETS.
+Similarly, M-RETS can only export Certificates to a Compatible
+Certificate Tracking System. M-RETS supports open and transparent
+markets.
+
+Using the M-RETS API, M-RETS supports allowing imports and exports
+between all Certificate tracking systems in North America, including
+allowing for the import/export of imported/exported Certificates. If a
+current system does not have import/export with M-RETS, please contact
+them and ask them to establish a connection.
+
+Certificates may be imported into M-RETS by a process of conversion.
+Conversion entails retiring the Certificate from the exporting tracking
+system and creation of a corresponding M-RETS Certificate. When the new
+M-RETS Certificate is issued, all data fields will remain with the
+imported Certificate, and the Certificate serial number will be
+structured in a way to identify it as a Certificate that originated in a
+Compatible Tracking System.
+
+To import Certificates into M-RETS, the M-RETS User must arrange for the
+transfer of Certificates from the counterparty privately. In general, as
+with all transfers, the party in possession of the Certificates must
+initiate the transfer. Therefore, the transferor will notify their
+system administrator of the desire to export Certificate(s) from their
+system into M-RETS, along with the information about the transferee,
+such as name and M-RETS Account number. The administrator of the
+transferor's tracking system will then communicate with M-RETS of the
+Certificate pending Certificate conversion. M-RETS will then notify the
+M-RETS User of the transfer and ask them to accept or reject the
+transfer. If the User accepts the transfer, the conversion of
+Certificates will ensue. Such a conversion will involve the export of
+the Certificate from the exporting system, and the issuance of a new
+Certificate by M-RETS. The converted Certificate will designate the
+system of origin and M-RETS will maintain a record of the serial number
+that was assigned in the exporting system. Through a coding system, the
+M-RETS serial number will identify the Certificate as imported and the
+tracking system of origin.
+
+If the User rejects the import, M-RETS will notify the administrator of
+the other system, and no Certificate conversion will take place.
+
+### Section 4.6.3: Automatic Recurring Transfers 
+
+Users may request Automatic Recurring Transfers of Certificates from any
+Generator Fuel Type to the following:
+
+1.  One internal Account
+
+2.  Multiple internal Accounts
+
+3.  An external Organization within M-RETS
+
+4.  A Compatible Certificate Tracking System (Export)
+
+In the registration of Automatic Recurring Transfer, the transferor must
+indicate:
+
+1.  Generator
+
+2.  Generator Fuel
+
+3.  Vintage Dates
+
+4.  Destination (Account, Multiple Accounts, External Organization,
+    Compatible Tracking System)
+
+5.  Percentage or Maximum Number of Certificates
+
+After a User initiates an Automatic Recurring Transfer ("Transferor"),
+the Automatic Recurring Transfer enters a 'Pending' state. The receiving
+Organization ("Transferee") then receives an email detailing the pending
+Automatic Recurring Transfer.
+
+The Transferee must accept each transfer in the System prior to the
+deposit of the Certificates in the Transferee's Account. Please note: An
+acceptance of an Automatic Recurring Transfer does not automatically
+accept subsequent transfers. The System requires a manual acceptance by
+the Transferee in case of an unwanted or incorrect Automatic Recurring
+Transfer.
+
+A User may set up multiple Automatic Recurring Transfers. However, each
+Generator Fuel Type may only be associated with one Automatic Recurring
+Transfer. For example, if your Generator uses both Biomass and Liquid
+Biomass, you will be able to create an Automatic Recurring Transfer for
+the Biomass and a separate Automatic Recurring Transfer for the Liquid
+Biomass. Single-fuel Generators may only set one Automatic Recurring
+Transfer at a time.
+
+Each Automatic Recurring Transfer will be set up based on percentage of
+Certificates or a maximum number of Certificates. If less Certificates
+are issued than the maximum number specified, the total number of
+Certificates issued will transfer. If the Certificates are transferring
+to multiple Accounts, Users may prioritize the receiving Accounts. If
+there is a remainder, the User-set priority determines where to deposit
+the remaining Certificates.
+
+### Section 4.6.4: Irrevocable Automatic Recurring Transfers
+
+From a technical standpoint, Irrevocable Automatic Recurring Transfers
+are like Automatic Recurring Transfers. However, only M-RETS can edit an
+Irrevocable Automatic Recurring Transfer. A change requires written
+electronic consent from the Transferor and Transferee. During the
+creation of an Automatic Recurring Transfers, Users can select an option
+to apply Irrevocable status to the Automatic Recurring Transfer.
+
+### Section 4.6.5: Export of Certificates
+
+M-RETS can only export Certificates to a Compatible Certificate Tracking
+System. For Certificates that are exported, the cooperative agreements
+between the tracking systems handle how to prevent double counting.
+
+To export Certificates from M-RETS to a Compatible Tracking System, the
+M-RETS User must select the batch of Certificates to export from an
+active Account and initiate a transfer using the Export Transfer option.
+The User must identify the following information:
+
+a.  Compatible Certificate Tracking System
+
+b.  The name of the intended recipient of the exported RECs
+
+c.  System ID of the party receiving the transfer (if available)
+
+After initiation, the designated Certificate is placed in a "pending"
+status to ensure that the Certificates cannot be inadvertently
+transferred or sold. M-RETS will communicate with the Administrator of
+the Compatible Certificate Tracking System and arrange for the transfer
+of Certificates. If the Compatible Certificate Tracking System accepts
+the transfer, the Certificates will be removed from the M-RETS User's
+active Account. The status of the Certificates will be changed from
+"export pending" to "exported."
+
+### Section 4.6.6: Re-Import of Exported Certificates
+
+M-RETS allows imports of previously exported Certificates. If any data
+fields were lost when the Certificate was originally exported, these
+fields will be repopulated with the original data when the Certificate
+is re-imported.
+
+Section 4.7: Programs
+---------------------
+
+The Program feature helps regulators, regulated entities, and
+organizations with their own internal programs to more efficiently
+manage the complexity of various programs. The Program feature allows
+regulators as well as Organizations the opportunity to set up rulesets
+that prevent retirements of Certificates outside the parameters set to a
+specified Retirement Account.
+
+Users may create rules around any subset or all the following attribute
+areas, however, the System does not require a ruleset to utilize this
+feature nor is this feature restricted to compliance programs:
+
+1.  Vintage Start \[requires Certificate vintage to be within a certain
+    date\]
+
+2.  Vintage End \[requires Certificate vintage to be within a certain
+    date\]
+
+3.  Eligibilities \[requires Certificates to have AT LEAST one of the
+    selected eligibilities\]
+
+4.  Generator Location \[Generator must originate in one of the selected
+    state/provinces\]
+
+5.  Fuel Types \[Certificates must meet AT LEAST one fuel type\]
+
+6.  Generators \[Certificates must come from AT LEAST one of the
+    selected Generators\]
+
+### 
+
+### Section 4.7.1: Establishing a Program
+
+Users can create a Program for internal use or can invite other M-RETS
+Organizations to participate.
+
+Any User within a General Account Subscription Organization that has
+Program manage permissions can create an Internal Program. Only
+Organizations that create Internal Programs can use and view the
+Program. Any Account created as part of the Internal Program will be
+subject to the associated Program Ruleset.
+
+Any User within a General Account Subscription Organization that has
+Program manage permissions or a Program Administrator can create an
+External Program. The Administrator of an External Program can invite an
+unlimited number of other M-RETS Organizations to participate in a
+Program. All participants will receive a notification inviting them to
+participate in the Program. Prior to becoming active Program
+participants, the invitee must accept the invitation.
+
+A walk through guide to adding a Program may be found
+[here](https://help.mrets.org/en/articles/2513477-adding-a-program).
+
+### Section 4.7.2: Participating in a Program
+
+Once an Organization accepts an invitation to participate in a Program,
+the accepting Organization must create a new Retirement Account and link
+the Account to the Program. As Certificates are retired into this
+Account, they will automatically appear on both the Program
+Administrator and the participant's Program dashboard. This dashboard is
+tailored to only show relevant information for their Program.
+
+If a User attempts to retire Certificates that do not match the
+predetermined criteria of the Program, the System blocks the retirement.
+This prevents the retirement of incorrect Certificates.
+
+A walk through guide to participating in a Program may be found
+[here](https://help.mrets.org/within-the-system/programs/participating-in-a-program).
+
+Section 4.8: API
+----------------
+
+M-RETS offers an application programming interface (API) to give
+Organizations with a General Account Subscription the ability to access
+M-RETS data from outside of the M-RETS Portal. Uses for this feature
+include, but are not limited to, creating an automated process to send a
+transfer or to pull report information. Organizations need to request an
+API access key before using the API. M-RETS can also provide access to a
+sandbox environment to test the API without affecting live production
+data in M-RETS. M-RETS encourages all users to use the sandbox
+environment prior to utilizing the M-RETS API in the production system.
+
+Documentation for the API is accessed through the M-RETS portal. Click
+on the "Documentation" tab located in the left nav menu to view a list
+of available calls and technical specifications. The documentation is
+interactive and allows for the testing of API calls right in the
+interface.
+
+More information on our API can be found in our [Terms of
+Use](https://www.mrets.org/wp-content/uploads/2018/12/MRETS-Terms-of-Use-Updated-11-28-2018.pdf).
+
+Section 5: Wisconsin RPS
+========================
+
+Certificates that are eligible for the Wisconsin RPS Program have one of
+the following eligibilities: WI Bankable and WI Non-Bankable. More
+information on the Wisconsin RPS can be found
+[here](https://psc.wi.gov/Pages/Programs/RpsCompliance.aspx).
+
+Section 5.1: WI Bankable
+------------------------
+
+M-RETS classifies Certificates that are WI RRC eligible and less than
+four years old as WI Bankable. WI Bankable Certificates are valid for
+Wisconsin compliance up to four years after the vintage year listed on
+the Certificate. After the fourth year, M-RETS removes the WI Bankable
+Certificate eligibility and the Certificate no longer qualifies for the
+Wisconsin RPS.
+
+Section 5.2: WI Non-Bankable
+----------------------------
+
+M-RETS classifies Certificates that are not WI RRC eligible and less
+than one year old as WI Non-Bankable. Organizations may only retire
+Certificates for the Wisconsin RPS that are Non-Bankable for the
+compliance year matching the vintage listed on the Certificate. For
+example, a Wisconsin compliance Organization may retire a 2017 WI
+Non-Bankable Certificate for the 2017 Wisconsin RPS but not for the 2018
+Wisconsin RPS. Because M-RETS does not set expiration dates on RECs, a
+User may still use a 2017 Wisconsin Non-Bankable REC for other purposes
+if that REC meets the guidelines for other state or voluntary programs.
+After the closure of the Wisconsin RPS program each year, M-RETS will
+remove the WI Non-Bankable designation from Certificates that are not in
+an M-RETS Retirement Account but no longer qualify according to
+Wisconsin state law and regulations.
+
+Section 5.3: RRC Adjusted Quantity
+----------------------------------
+
+Wisconsin Stat. § 196.378(2)(b)1m.a. states that hydroelectric
+facilities owned or operated by Wisconsin electric providers during the
+"baseline" 2001-2003 period receive average value for purposes of the
+Wisconsin RPS. This value is based on an annual average production
+during the three-year baseline period. This in effect creates two
+different values: "Quantity" and "RRC Adjusted Quantity"
+
+M-RETS automatically calculates the RRC Adjusted Quantity for use in the
+Wisconsin RPS Program once all Generators subject to this rule have all
+data uploaded for the compliance year. When using the M-RETS Program
+function, the correct number for compliance is the RRC Adjusted
+Quantity. For Generators participating in the Wisconsin RPS that do not
+have a three-year hydro average the RRC Adjusted Quantity and the
+Quantity should be equal.
+
+# Section 6: Public Reports
+
+M-RETS provides live-updated Public Reports on the M-RETS [Landing Page](https://app.mrets.org/) subject to the privacy rules contained in the M-RETS Terms of Use.
+
+# Section 7: Acknowledgements
+
+At the time of publication, the M-RETS Board of Directors included:
+
+**Andrew Kell** , Public Service Commission of Wisconsin
+
+**Andy Kellen** , WPPI Energy
+
+**Eric Schroeder,** Subject Matter Expert
+
+**Esther Case** , Central Iowa Power Cooperative (CIPCO)
+
+**Ken Nelson** , Blue Delta Energy, LLC
+
+**Ken Smith** , Ever-Green Energy, Inc.
+
+**Sherian Krause** , MidAmerican Energy Company
+
+**Supria Ranade,** Lightsource BP
+
+**Teody Leano** , Manitoba Municipal Government
+
+# Appendix A: Generator Static Data Fields
+
+(\*) denotes a required field
+
+| General | |
+| --- | --- |
+| General Information | |
+| Unit Name\* | Generator Name |
+| Facility Name\* | Name of the facility (some facilities may have multiple units) |
+| WI RRC Unit ID | Wisconsin PSC assigned RRC Unit ID |
+| WI RRC Program Registration Date | Date Wisconsin PSC approved the Generator registration |
+| EIA Number | ID number provided by the EIA (if applicable) |
+| Reporting and Issuance |
+| Reporting Entity\* | What is the QRE for the Facility |
+| Reporting Unit ID\* | The MISO Node or a user-created identifier |
+| Issuance Account\* | This is the Account to which all newly issued Certificates will be deposited into. |
+| Location |
+| County | Physical county where Generator is located |
+| State/Province\* | State or Province where Generator is located |
+| Country\* | Physical country where Generator is located |
+| Latitude/Longitude | Exact location of Generator |
+| Facility Photo | A photo of the Generator |
+| Owner |
+| General Ownership Information |
+| Single-Owner Facility?\* | Is this facility owned by a single entity? |
+| Additional Owner(s) | If this is not a single owner, list the additional owners |
+| Owner Contact Information |
+| Company Name\* | Owner that holds legal title to the Generator |
+| Address\* | Contact information of owner referenced above |
+| City\* |
+| State/Province\* |
+| Zip/Postal Code\* |
+| Country\* |
+| Phone\* |
+| Website |
+| Mailing Address\* |
+| Mailing City\* |
+| Mailing State/Province\* |
+| Mailing Zip/Postal Code\* |
+| Mailing Country\* |
+| Publish contact information?\* | Do you want the contact information published in the M-RETS reports |
+| Ownership Type and Registration Rights\* | Ownership type |
+| Ownership Type(s) |
+| Electric Service Provider | What type of Electric Service Provider is the owner |
+| Federal Marketer/Power Administrator | Is the owner a Federal Marketer/Power Administrator |
+| Investor-Owned Utility | A privately-owned electric utility whose stock is publicly traded and is rate regulated and authorized to achieve an allowed rate of return. |
+| Irrigation District | Is the owner an irrigation district |
+| Municipal Utility | Is the owner a municipal utility |
+| Privately Owned Distributed Generation | Is the facility privately owned distributed generation (e.g. solar or wind) |
+| Rural Electric Cooperative | Is the owner a Rural Electric Cooperative |
+| Tribal Organization | Is the owner a legally recognized tribal Organization |
+| Is the owner a WI electricity retailer?\* | Is the Generator owner a Wisconsin Retail Electric Provider |
+| Assignment of Registration Rights\* | Were the registration rights assigned by another party |
+| Court/Regulator Assignment of Rights\* | Did a court assign the rights of this Generator to another party |
+| Facility Operator Information |
+| Job Title | Job Title of Facility Operator |
+| Name\* | Name of Facility Operator |
+| Mailing Address\* | Mailing Address |
+| Mailing Address Line 2 |   |
+| City\* | Mailing City |
+| Mailing State/Province\* | Mailing State/Province |
+| Mailing Zip/Postal Code\* | Mailing Zip/Postal Code |
+| Mailing Country\* | Mailing Country |
+| Engineering |
+| Class and Fuel Type |
+| Single or multi-fuel facility?\* | Is this Generator a multi fuel Generator |
+| Fuel Type &amp; Fuel Source(s)\* | Type of Fuel and Fuel Source(s) |
+| Control Area Operator\* | Name of the Control Area Operator/ISO (e.g. MISO or SPP) |
+| Interconnected Utility\* | Utility network Generator is interconnected with |
+| Generation Technology\* | Generator technology |
+| Engineering |
+| Commenced Operation Date\* | In-service date of Generator |
+| Nameplate Capacity (MW) in A/C\* | The maximum rated output of a Generator |
+| Capacity Factor\* | The ratio of the electrical energy produced by a Generating Unit for the period of time considered to the electrical energy that could have been produced at continuous full power operation during the same period. |
+| Maximum Annual Energy\* | Maximum annual output in MWH of the facility in 365 days |
+| Biomass Net Generation BTU/kWh | _Heat rate_ is one measure of the efficiency of a Generator or power plant that converts a fuel into heat and into electricity. The heat rate is the amount of energy used by an electrical Generator or power plant to generate one kilowatt hour (kWh) of electricity. The U.S. Energy Information Administration (EIA) expresses heat rates in British thermal units (Btu) per net kWh generated |
+| Repower Date(s) | If repowered, the in-service date of the repowered Generator |
+| METERING INFORMATION |
+| Aggregate Metering\* | Is this an aggregated facility |
+| Aggregating Unit Count | How many Generators are aggregated if this is an aggregated facility |
+| Primary Generator\* | If this is an aggregated Generator, what is the primary Generator |
+| Revenue Meter ID\* | Serial Number or Model Number of the Meter |
+| Meter Manufacturer\* | Manufacturer of the meter |
+| Meter Type\* | Type of Meter (Revenue Grade Meter or Non-Revenue Grade Meter) |
+| Last Meter Certification\* | Last date the meter was certified |
+| WI INFORMATION |
+| Approved to report 3-year hydro average?\* | Does this Generator use a 3-year hydro average specific to the Wisconsin Program |
+| Hydro 3-year average | 3-year hydro average value |
+| Approved as a WI displacement facility?\* | Is this facility certified by the State of Wisconsin as a WI displacement facility |
+| Program Eligibility (See Appendix for detail) |   |
+
+# Appendix B: Fuel Type &amp; Fuel Source
+
+**Fuel Type**
+
+| **Fuel Type(Short Description)** | **Fuel Type(Long Description)** | **Renewable(Y/N)** | **Recycled(Y/N)** |
+| --- | --- | --- | --- |
+| BIG | Biogas | Y | N |
+| BIM | Biomass | Y | N |
+| CO1 | Coal | N | N |
+| DI1 | Diesel | N | N |
+| FC1 | Fuel Cells | Y | N |
+| FLR | Flared Gas | N | Y |
+| GE1 | Geothermal Energy | Y | N |
+| H2O | Hydroelectric Water | Y | N |
+| HYD | Hydrogen | Y | N |
+| JET | Jet | N | N |
+| MS1 | Municipal solid waste | Y | N |
+| NG1 | Natural Gas | N | N |
+| NON | Not Listed - Contact M-RETS | N | N |
+| NU1 | Nuclear | N | N |
+| OC1 | Tidal or Wave | Y | N |
+| OIL | Oil | N | N |
+| SO1 | Solar | Y | N |
+| WHR | Waste Heat Recovery | Y | N |
+| WND | Wind | Y | N |
+| WO1 | Waste Oil | N | N |
+
+
+
+**Fuel Source:**
+
+| **Fuel Type** | **Fuel Source** |
+| --- | --- |
+| Biogas | Biogas |
+| Biogas | Animal Waste |
+| Biogas | Anaerobic digester system |
+| Biogas | Liquid fuels derived from plant or animal sources, including but not limited to ethanol, biodiesel, vegetable oil, or animal fats |
+| Biogas | Methane or other combustible gases derived from the processing or decay of plant, animal, or municipal solid waste materials |
+| Biogas | Constructed in compliance with new source performance standards promulgated under the federal Clean Air Act for a generation facility of that type |
+| Biogas | Employs the maximum achievable or best available control technology available for a generation facility of that type |
+| Biomass | Biomass |
+| Biomass | Method of combustion is Direct Combustion |
+| Biomass | Method of combustion is Gasification |
+| Biomass | Method of combustion is Liquefaction |
+| Biomass | A majority of the fuel source is Agricultural products |
+| Biomass | A majority of the fuel source is Wood products |
+| Biomass | A majority of the fuel source is Agricultural by-products including wastes |
+| Biomass | A majority of the fuel source is mixed municipal solid waste |
+| Biomass | A majority of the fuel source is refuse-derived fuel |
+| Biomass | Primary woody or herbaceous vegetative matter (plants), including but not limited to wood, grasses, agricultural crops or residues |
+| Biomass | Processed plant materials from industry waste sources, including manufacturing, construction, or demolition |
+| Biomass | Methane or other combustible gases derived from the processing or decay of plant, animal, or municipal solid waste materials |
+| Biomass | Liquid fuels derived from plant or animal sources, including but not limited to ethanol, biodiesel, vegetable oil, or animal fats |
+| Biomass | Mixed municipal solid waste and refuse-derived fuel from MSW |
+| Biomass | Landfill Gas |
+| Biomass | Animal Waste |
+| Biomass | Constructed in compliance with new source performance standards promulgated under the federal Clean Air Act for a generation facility of that type |
+| Biomass | Employs the maximum achievable or best available control technology available for a generation facility of that type |
+| Coal | Coal |
+| Diesel | Diesel |
+| Fuel Cells | Fuel Cell using renewable fuels |
+| Fuel Cells | Fuel Cell using non-renewable fuels |
+| Flared Gas | Flared Gas |
+| Geothermal Energy | Geothermal Energy |
+| Geothermal Energy | Dry Steam |
+| Geothermal Energy | Flash Steam |
+| Geothermal Energy | Binary Cycle |
+| Hydroelectric Water | Hydroelectric Water |
+| Hydroelectric Water | Hydroelectric Water with a nameplate capacity that is less than 4MW |
+| Hydroelectric Water | Hydroelectric Water with a nameplate capacity that is less than 60MW |
+| Hydroelectric Water | Hydroelectric Water with a nameplate capacity that is less than 100MW |
+| Hydrogen | Hydrogen |
+| Jet | Jet |
+| Municipal solid waste | Municipal Solid Waste |
+| Municipal solid waste | An energy recovery facility used to capture the heat value of mixed municipal solid waste or refuse-derived fuel from mixed municipal solid waste |
+| Municipal solid waste | Anaerobic digester system |
+| Municipal solid waste | Landfill Gas |
+| Natural Gas | Natural Gas |
+| Nuclear | Nuclear |
+| Tidal or Wave | Tidal or Wave |
+| Oil | Oil |
+| Solar | Solar PV |
+| Solar | Solar Thermal |
+| WHR | Waste Heat Recovery/Recycled Energy |
+| WHR | Energy produced by a Generating Unit with a nameplate capacity of not more than fifteen megawatts that converts the otherwise lost energy from the heat exhaust stacks or pipes to electricity and that does not combust additional fossil fuel. &quot;Recycled Energy&quot; does not include energy produced by any system that uses energy, lost or otherwise, from a process whose primary purpose is the generation. |
+| Wind | Wind |
+| Waste Oil | Waste Oil |
