@@ -136,9 +136,9 @@ Table of Contents
 
 #### [Appendix B: Fuel Type & Fuel Source](index.md#appendix-b-fuel-type--fuel-source-1)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix B-1: Fuel Type List](appendixb1.md)
+##### &nbsp;&nbsp;&nbsp;[Appendix B-1: Fuel Type List](index.md#fuel-type)
 
-##### &nbsp;&nbsp;&nbsp;[Appendix B-2: Fuel Source List](appendixb2.md)
+##### &nbsp;&nbsp;&nbsp;[Appendix B-2: Fuel Source List](index.md#fuel-source)
 
 #### [Appendix C: Transfer Appendix](appendixc.md)
 
