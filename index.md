@@ -184,7 +184,7 @@ M-RETS requires Users create a secure password with a minimum of 12 characters. 
 
 Participation in M-RETS is voluntary, though some states or provinces may require participation in M-RETS for purposes of regulatory program compliance. Any party that registers with M-RETS and pays the applicable fees may establish an Organization in the System.
 
-There is no limit to the number of separate Organizations a company or individual may establish. Registrants will provide basic Organization registration information, such as username, address, contact info, etc. to M-RETS through a secure webpage on M-RETS. The registrant must pay all required fees specific to the Organization type subject to the M-RETS [Terms of Use](https://help.mrets.org/en/articles/1376725-terms-of-use). An Organization in M-RETS will remain active until Inactivated (_See_Section 3.2: Inactivating an Organization).
+There is no limit to the number of separate Organizations a company or individual may establish. Registrants will provide basic Organization registration information, such as username, address, contact info, etc. to M-RETS through a secure webpage on M-RETS. The registrant must pay all required fees specific to the Organization type subject to the M-RETS [Terms of Use](https://help.mrets.org/en/articles/1376725-terms-of-use). An Organization in M-RETS will remain active until Inactivated [(SeeSection 3.2: Inactivating an Organization)](index.md#section-32-inactivating-an-organization).
 
 M-RETS will check all Organization registration or modified existing Organization entries for completeness. An error message will flag mandatory fields not completed by the registrant.
 
