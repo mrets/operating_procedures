@@ -33,7 +33,7 @@ M-RETs requires that all API users be part of a registered organization with a G
 
 Swagger Docs are available for all M-RETS API endpoints.
 
-[Swagger 2.0](https://m-rets-sandbox.herokuapp.com/apipie.json?type=swagger)
+[Swagger 2.0](https://m-rets-sandbox.herokuapp.com/postman-collections/apipie.json?type=swagger)
 
 ### Postman Files
 
@@ -41,17 +41,17 @@ Select Postman files can be downloaded for many API endpoints.
 
 To use these Postman collections, the `API_TOKEN` enviroment variable should be set to your sandbox api token.
 
-* [Accounts](https://m-rets-sandbox.herokuapp.com/Accounts.postman_collection.json)
-* [Certificate Quantities](https://m-rets-sandbox.herokuapp.com/Certificate-Quantities.postman_collection.json)
-* [Fuel Sources](https://m-rets-sandbox.herokuapp.com/Fuel-Sources.postman_collection.json)
-* [Generation Entry](https://m-rets-sandbox.herokuapp.com/Generation-Entry.postman_collection.json)
-* [Generator Fuel](https://m-rets-sandbox.herokuapp.com/Generator-Fuel.postman_collection.json)
-* [Generators](https://m-rets-sandbox.herokuapp.com/Generators.postman_collection.json)
-* [Organizations](https://m-rets-sandbox.herokuapp.com/Organizations.postman_collection.json)
-* [Recurring Transfer](https://m-rets-sandbox.herokuapp.com/Recurring-Transfer.postman_collection.json)
-* [Retirement Option](https://m-rets-sandbox.herokuapp.com/Retirement-Option.postman_collection.json)
-* [Transaction Details](https://m-rets-sandbox.herokuapp.com/Transaction-Details.postman_collection.json)
-* [User Transactions](https://m-rets-sandbox.herokuapp.com/User-Transactions.postman_collection.json)
+* [Accounts](https://m-rets-sandbox.herokuapp.com/postman-collections/Accounts.postman_collection.json)
+* [Certificate Quantities](https://m-rets-sandbox.herokuapp.com/postman-collections/Certificate-Quantities.postman_collection.json)
+* [Fuel Sources](https://m-rets-sandbox.herokuapp.com/postman-collections/Fuel-Sources.postman_collection.json)
+* [Generation Entry](https://m-rets-sandbox.herokuapp.com/postman-collections/Generation-Entry.postman_collection.json)
+* [Generator Fuel](https://m-rets-sandbox.herokuapp.com/postman-collections/Generator-Fuel.postman_collection.json)
+* [Generators](https://m-rets-sandbox.herokuapp.com/postman-collections/Generators.postman_collection.json)
+* [Organizations](https://m-rets-sandbox.herokuapp.com/postman-collections/Organizations.postman_collection.json)
+* [Recurring Transfer](https://m-rets-sandbox.herokuapp.com/postman-collections/Recurring-Transfer.postman_collection.json)
+* [Retirement Option](https://m-rets-sandbox.herokuapp.com/postman-collections/Retirement-Option.postman_collection.json)
+* [Transaction Details](https://m-rets-sandbox.herokuapp.com/postman-collections/Transaction-Details.postman_collection.json)
+* [User Transactions](https://m-rets-sandbox.herokuapp.com/postman-collections/User-Transactions.postman_collection.json)
 
 ### Data Dictionaries
 
