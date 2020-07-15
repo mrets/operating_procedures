@@ -33,7 +33,7 @@ M-RETs requires that all API users be part of a registered organization with a G
 
 Swagger Docs are available for all M-RETS API endpoints.
 
-[Swagger 2.0](https://m-rets-sandbox.herokuapp.com/postman-collections/apipie.json?type=swagger)
+[Swagger 2.0](https://m-rets-sandbox.herokuapp.com/apipie.json?type=swagger)
 
 ### Postman Files
 
