@@ -88,4 +88,4 @@ v1/public/certificate_quantities?filter[status]=active&filter[eligibility]=hydro
 
 ## Notes on Pagination / Limits / Permissions
 
-The M-RETS API by default returns paginated results of 25 records. With a maximun of 100 records.
+The M-RETS API by default returns paginated results of 25 records. With a maximun of 1000 records.
