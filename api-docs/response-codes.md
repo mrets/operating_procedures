@@ -1,8 +1,6 @@
 # Response Codes
 
-Example of response code docs: [https://developer.twitter.com/en/docs/basics/response-codes](https://developer.twitter.com/en/docs/basics/response-codes)
-
-The standard Twitter API returns HTTP status codes in addition to JSON-based error codes and messages.
+The standard M-RETS API returns HTTP status codes in addition to JSON-based error codes and messages.
 
 ## HTTP Status Codes
 
