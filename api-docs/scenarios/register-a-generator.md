@@ -20,12 +20,12 @@ Upon being initialized, the system will asign a sequential `mrets_id` to the gen
 POST v1/public/generators
 
 {
-	"data": {
-		"type": "generators",
-		"attributes": {
-			"facility_name": "Test 1"
-		}
-	}
+  "data": {
+    "type": "generators",
+    "attributes": {
+      "facility_name": "Test 1"
+    }
+   }
 }
 ```
 
@@ -103,16 +103,16 @@ To add the generator_fuel `biomass` to a generator, the call would look like thi
 POST v1/public/generator_fuels
 
 {
-	"data": {
-	  "type": "generator_fuels",
-	  "attributes": {
-	    "label": "Test 1"
-	  },
-	  "relationships": {
-	    "fuel_source": { "data": { "type": "fuel_sources", "id": "00000000-0000-0000-0000-000000000001"  } },
-	    "generator": { "data": { "type": "generators", "id": "15500fff-8b41-478b-acaf-f4e9a3993b80" } }
-	  }
-	}
+  "data": {
+    "type": "generator_fuels",
+    "attributes": {
+      "label": "Test 1"
+    },
+    "relationships": {
+      "fuel_source": { "data": { "type": "fuel_sources", "id": "00000000-0000-0000-0000-000000000001"  } },
+      "generator": { "data": { "type": "generators", "id": "15500fff-8b41-478b-acaf-f4e9a3993b80" } }
+    }
+  }
 }
 ```
 
@@ -123,8 +123,10 @@ A generator has 3 associated contact objects including the Owner, Operator, and 
 POST /v1/public/generators/:generator_id/owner
 POST /v1/public/generators/:generator_id/operator
 POST /v1/public/generators/:generator_id/mailing
+```
 
 Payload Sample:
+```
 {
   "data": {
     "type": "contacts",
@@ -207,6 +209,7 @@ PUT v1/public/generators/{org_id}
 
 After it has been successfully reviewed by the M-RETS System Admin, the generator will be updated with a status of `approved` as well as an `effective_date`.
 
+## Generation History
 
 To check the generation history of a generator:
 
