@@ -11,7 +11,7 @@ A generator is a complex entity including many relationships to other objects th
 ## The Basic Call
 
 ```
-v1/public/
+v1/public/generators
 ```
 
 ## Filters
@@ -19,7 +19,7 @@ v1/public/
 Common filters that would be applied to generators could include the `fuel type`, `state_province`, or the `eligibility` filters. To replicate the table found in the M-RETS under the Projects tab, you would apply the `active` filter.
 
 ```
-v1/public/
+v1/public/generators?filter[status]=active&filter[state_province]=MN
 ```
 
 ## Including Relationships
@@ -36,7 +36,7 @@ The relationships available with this call include:
 To receive the additional associated information that can be viewed in the Projects table found in the M-RETS under the Active Projects tab, it would be helpful to include the Generator Fuel and the Reporting Entity.
 
 ```
-v1/public/
+v1/public/generators?include=generator_fuels,organization,reporting_entity,owner,operator,mailing,issue_to_account
 ```
 
 ## Sorting Results
@@ -44,7 +44,7 @@ v1/public/
 And let's say we want to view a list of Generators in order by nameplate capacity.
 
 ```
-v1/public/
+v1/public/generators?sort=nameplate_capacity
 ```
 
 ## Other Use Case Examples
@@ -54,31 +54,31 @@ Other things you may want to do with this endpoint could include:
 View all of your draft generators:
 
 ```
-v1/public/
+v1/public/generators?filter[status]=draft
 ```
 
 View all of your wind generators:
 
 ```
-v1/public/
+v1/public/generators?fields[generator]=generator_fuels&fields[generator_fuels]=fuel_source&include=generator_fuels.fuel_source&filter[fuel_type]={fuel type wind id}
 ```
 
 View all of your self-reported generators:
 
 ```
-v1/public/
+v1/public/generators?filter[reporting_entity_id]={generator's owner id}
 ```
 
 View all of your generators with the MN eligibility:
 
 ```
-v1/public/
+v1/public/generators?include=generator_fuels,generator_fuels.eligibilities&filter[eligibilities]=mn
 ```
 
 View all of your generators located in Iowa:
 
 ```
-v1/public/
+v1/public/generators?filter[state_province]=IA
 ```
 
 ## Notes on Pagination / Limits / Permissions
