@@ -11,7 +11,7 @@ The Generation History table in the M-RETS is a log of all generation entries in
 ## The Basic Call
 
 ```
-v1/public/
+GET v1/public/generation_entries
 ```
 
 ## Filters
@@ -19,7 +19,7 @@ v1/public/
 The most common filters that would be applied to generation entries would likely be the `status` filter. To view only generation entries that had resulted in the issuance of certificates, you would apply the `issued` filter.
 
 ```
-v1/public/
+GET v1/public/generation_entries?filter[status]=issued
 ```
 
 ## Including Relationships
@@ -28,10 +28,10 @@ The relationships available with this call include:
 
 * Generator
 
-To receive the additional associated information that can be viewed in the Generation History table, includ the Generator relationship.
+To receive the additional associated information that can be viewed in the Generation History table, include the Generator relationship.
 
 ```
-v1/public/
+GET v1/public/generation_entries?include=generator
 ```
 
 ## Sorting Results
@@ -39,7 +39,7 @@ v1/public/
 And let's say we want to view generation entries as they would appear in the Generation Entry log, in reverse order by when they were created.
 
 ```
-v1/public/
+GET v1/public/generation_entries?sort=-created_at
 ```
 
 ## Other Use Case Examples
@@ -49,19 +49,19 @@ Other things you may want to do with this endpoint could include:
 View all of generation entries from a specific generator:
 
 ```
-v1/public/
+GET v1/public/generation_entries?filter[generator_id]={generator_id}
 ```
 
 View all of your generation entries from January - December of 2019:
 
 ```
-v1/public/
+GET v1/public/generation_entries?filter[generation_period_start_start]=2019-01-01&filter[generation_period_start_end]=2019-12-01
 ```
 
 View all of your generation entries from a specific fuel type:
 
 ```
-v1/public/
+GET v1/public/generation_entries?filter[fuel_type]={fuel_type_id}
 ```
 
 
