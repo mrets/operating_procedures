@@ -208,12 +208,3 @@ PUT v1/public/generators/{org_id}
 ```
 
 After it has been successfully reviewed by the M-RETS System Admin, the generator will be updated with a status of `approved` as well as an `effective_date`.
-
-## Generation History
-
-To check the generation history of a generator:
-
-```
-GET v1/public/generation_entries?filter[generator_id]={generator_id}
-```
-
