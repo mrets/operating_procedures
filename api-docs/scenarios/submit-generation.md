@@ -65,5 +65,6 @@ Here is an example response if there's a gap in the submittal process.
 
 ```
 {
-{"rows":[{"errors":["There's an existing generation that overlaps these dates"],"row":["727","206","8/2018","03/01/2019","03/15/2019","33945"]}]}}
+  "rows":[{"errors":["There's an existing generation that overlaps these dates"],"row":["727","206","8/2018","03/01/2019","03/15/2019","33945"]}]}
+}
 ```
