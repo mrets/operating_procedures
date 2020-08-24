@@ -105,8 +105,11 @@ uploaded in kWh.
         excepting New Year's, Memorial Day, Fourth of July, Labor Day,
         Thanksgiving Day, and Christmas Day or if the holiday occurs on
         a Sunday, the Monday immediately following the holiday.
+        
+### Section 4.4.2: Generation Fuel Allocation (Fuel Split)
+Multifuel Generators require a Fuel Split before issuing certificates. The Fuel Split defines the percentage of allocated generation between fuel types. All entered percentages must total 100%, or they will not be accepted.
 
-### Section 4.4.2: Uploading Time Restrictions
+### Section 4.4.3: Uploading Time Restrictions
 
 To encourage timely reporting, M-RETS enabled automatic validations to
 generation uploads. For small Generators (1 to 150 kW nameplate
@@ -133,7 +136,7 @@ circumstances---to a state or provincial regulator should there be
 concern compliance with the variance request could result in potential
 double counting.
 
-### Section 4.4.3: Requirements of Data Reporting Entities (QREs)
+### Section 4.4.4: Requirements of Data Reporting Entities (QREs)
 
 M-RETS will accept generation data from Control Area Operators,
 Qualified Reporting Entities and Self-Reporting Generators.
@@ -224,3 +227,6 @@ each resource.
 The data must be transmitted by a single entity, which must be either
 (1) the Control Area Operator, or (2) a QRE, or (3) a Self-Reporting
 Generator.
+
+### Section 4.4.7 Generation Fuel Allocation (Fuel Split)
+Multifuel Generators require a Fuel Split before issuing certificates. The Fuel Split defines the percentage of allocated generation between fuel types. All entered percentages must total 100%, or they will not be accepted.
