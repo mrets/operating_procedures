@@ -90,8 +90,6 @@ Our defines two ways of handling time zone offsets:
 1994-11-05T08:15:30-05:00 corresponds to November 5, 1994, 8:15:30 am, US Eastern Standard Time.  
 1994-11-05T13:15:30Z corresponds to the same instant.
 
-
-
 ## Rate Limits
 
 Each API token can be used up to 10 times over 5 seconds. The API rate limit is the same for all endpoints.
