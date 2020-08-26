@@ -70,6 +70,26 @@ To use descending order you need to put - in front of the corresponding attribut
 
 https://m-rets-sandbox.herokuapp.com/v1/public/accounts?sort=status,-name
 
+## Date and Timestamp Format
+
+We use the standard [ISO 8601](https://www.w3.org/TR/NOTE-datetime) format for all of our date and timestamps.
+
+### Complete date
+YYYY-MM-DD (eg 1997-07-16)  
+### Complete date plus hours and minutes
+YYYY-MM-DDThh:mmTZD (eg 1997-07-16T19:20+01:00)
+
+### Timezone Designator
+Our API defines two ways of handling time zone offsets:
+
+1.     Times are expressed in UTC (Coordinated Universal Time), with a special UTC designator ("Z").
+1.     Times are expressed in local time, together with a time zone offset in hours and minutes. A time zone offset of "+hh:mm" indicates that the date/time uses a local time zone which is "hh" hours and "mm" minutes ahead of UTC. A time zone offset of "-hh:mm" indicates that the date/time uses a local time zone which is "hh" hours and "mm" minutes behind UTC. 
+
+#### Example
+
+1994-11-05T08:15:30-05:00 corresponds to November 5, 1994, 8:15:30 am, US Eastern Standard Time.  
+1994-11-05T13:15:30Z corresponds to the same instant.
+
 ## Rate Limits
 
 Each API token can be used up to 10 times over 5 seconds. The API rate limit is the same for all endpoints.
