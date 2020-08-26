@@ -80,7 +80,7 @@ YYYY-MM-DD (eg 1997-07-16)
 YYYY-MM-DDThh:mmTZD (eg 1997-07-16T19:20+01:00)
 
 ### Timezone Designator
-Our defines two ways of handling time zone offsets:
+Our API defines two ways of handling time zone offsets:
 
 1.     Times are expressed in UTC (Coordinated Universal Time), with a special UTC designator ("Z").
 1.     Times are expressed in local time, together with a time zone offset in hours and minutes. A time zone offset of "+hh:mm" indicates that the date/time uses a local time zone which is "hh" hours and "mm" minutes ahead of UTC. A time zone offset of "-hh:mm" indicates that the date/time uses a local time zone which is "hh" hours and "mm" minutes behind UTC. 
