@@ -1,8 +1,19 @@
-| Name         | Data Field                 | Description |
-|--------------|----------------------------|-------------|
-| Name         | name                       |             |
-| Year         | year                       |             |
-| Closing Date | closing_date               |             |
-| Rules        |                            |             |
-| Accounts     | relationship: accounts     |             |
-| Participants | relationship: participants |             |
+| Name                      | Data Field                           | Description                                                                                                                                           |
+|---------------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name                      | name                                 | Unique name of the program                                                                                                                            |
+| Year                      | year                                 | Identifying name of the program. Could represent a compliance year.                                                                                   |
+| Close Date                | close_date                           | Optional close date is the last day retirements can be completed for this program. Beyond this date, program retirement accounts are set to "frozen". |
+| Is Internal?              | is_internal                          | This flag specifies if a program is for internal use only and does not have any outside participant organizations.                                    |
+| Is Voluntary?             | is_voluntary                         | This flag specifies if a program is for a voluntary purpose and is not to meet a compliance requirement.                                              |
+| Account Naming Convention | account_naming_convention            | This optional field is to help program administrators communicate  to participants any formating requests for the naming of accounts.                 |
+| Vintage Start             | vintage_start                        | This month is the earliest vintage of certificates eligible to be retired for a program.                                                              |
+| Vintage End               | vintage_end                          | This month is the latest vintage of certificates eligible to be retired for a program.                                                                |
+| Fuel Types                | fuel_types                           | List of fuel types. If present, RECs retired for this program must have a fuel type present in this list.                                             |
+| Locations                 | locations                            | List of states or provinces. If present, RECs retired for this program must be from one of these states.                                              |
+| Administrator             | relationship: administrator          | The organization that created and administers this program.                                                                                           |
+| Organization              | relationship: organizations          | List of participant organizations                                                                                                                     |
+| Eligibilities             | relationship: eligibilities          | List of eligibilities. If present, RECs retired for this program must contain at least one of these eligibilities.                                    |
+| Generators                | relationship: generators             | List of generators. If present, RECs retired for this program must be from one of these generators.                                                   |
+| Participants              | relationship: participants           | List of organizations that have accepted an invite to particpate in the program.                                                                      |
+| Certificate Quantities    | relationship: certificate_quantities | List of certificate quantities that have been successfully retired for this program.                                                                  |
+| Accounts                  | relationship: accounts               | List of retirement accounts that are associated with this program. All RECs retired for this program must be placed into one of these accounts.       |
