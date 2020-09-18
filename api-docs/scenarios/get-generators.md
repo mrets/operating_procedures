@@ -1,4 +1,4 @@
-# Get Generators 
+# Get Generators
 
 ## Use Case
 
@@ -86,3 +86,7 @@ v1/public/generators?filter[state_province]=IA
 The M-RETS API by default returns paginated results of 25 records. With a maximun of 1000 records.
 
 Depending on if your organization owns a generator or not, different information may be returned. If you are seeking to view the details of a generator that your organization does not own, the data returned will be limited to only the data in our system that is classified as public.
+
+## For Market Administrator Organization
+
+Market Administrator Organizations do not own generators but have visibility on the participant organization's generators, given those generators issued recs that are for sell.
