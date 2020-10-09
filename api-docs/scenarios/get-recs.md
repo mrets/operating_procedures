@@ -89,3 +89,7 @@ v1/public/certificate_quantities?filter[status]=active&filter[eligibility]=hydro
 ## Notes on Pagination / Limits / Permissions
 
 The M-RETS API by default returns paginated results of 25 records. With a maximun of 1000 records.
+
+## For Market Administrator Organization
+
+Market Administrator Organizations do not own generators but have visibility on the participant organization's generators, given those generators issued recs that are for sell.
