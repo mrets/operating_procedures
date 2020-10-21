@@ -1,18 +1,6 @@
-# Administer a Market
+# Participate in a Market
 
 ## Use Case
-
-The Market Administrator functionality was desinged to support third parties who would like to provide a spot market service to users on the M-RETS. 
-
-To read more about the Market Admin feature, see our help article [here](link). To Register as Market Admin, please see our help article [here](link) and contact the System Admin.
-
-Market Administrators have several dedicated designed to meet their needs:
-* Invite Participants
-* Get all active Participants
-* Get RECs from a Participant's dedicated Market Account
-* Encumber a Certificate Quantity
-* Unencumber a Certificate Quantity
-* Create a Market Transaction
 
 There is one type of certificate transfers:
 * A market transfer from one organization to another. User denoting a sale or change in ownership.
@@ -27,24 +15,7 @@ Market transfers only involve one step. A user initiates a transfer and it will 
 
 The market transfer will deposited the certificates on the receiving organization's Purchased account.
 
-## Invite Market Participants
-
-### Get all Organizations
-
-The M-RETS public Organization report will return a list of all active organizations in the system. From this endpoint, the ID of a specific Organization can be retrieved.
-
-GET v1/public/organizations
-
-### Get all active Participants
-
-## Get RECs from a Participant's dedicated Market Account
-
-
-## Encumber/Unencumber a Certificate Quantity
-
-
-
-## Create a Market Transaction
+## Adding Market Participants
 
 ### Drafting a transaction
 
