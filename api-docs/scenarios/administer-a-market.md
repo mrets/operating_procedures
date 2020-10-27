@@ -6,18 +6,137 @@ The Market Administrator functionality was desinged to support third parties who
 
 To read more about the Market Admin feature, see our help article [here](link). To Register as Market Admin, please see our help article [here](link) and contact the System Admin.
 
-Market Administrators have several dedicated designed to meet their needs:
+Market Administrators have several endpoints designed to meet their needs:
 * Invite Participants
 * Get all active Participants
-* Get RECs from a Participant's dedicated Market Account
-* Encumber a Certificate Quantity
-* Unencumber a Certificate Quantity
+* GET RECs
+* Encumber/Unencumber a Certificate Quantity
 * Create a Market Transaction
 
 There is one type of certificate transfers:
 * A market transfer from one organization to another. User denoting a sale or change in ownership.
 
-## Notes About the Entity
+## Process
+The Market Administrator establishes a new “Market”. The Market Administrator must have their Participant Terms of Use approved by M-RETS and available for Participants to review at any time. See Operating Procedures for further details on the sign-up process, permissions, and other policies related to this account type in the M-RETS.
+ 
+1. The Market Administrator has the ability to invite an unlimited number of participants to this Market. The list of Participants would be visible to the Market Administrator and they would have the ability to add or remove Participants at any time.
+
+2. Upon accepting an invite to a Market, a special active Market Account would be automatically created for the Participant as well as a designated account where purchased RECs will be deposited. Participants can transfer Certificates to the designated Market Account. While in this special account, they by default have the status of “unencumbered”, but have the option of being toggled to “encumbered” While in this account, the certificates are visible to the Market Administrator and become available to be posted to the external market platform. 
+
+While posted on the external market, it is the Market Administrator’s responsibility to ensure Certificates have been set to “encumbered”. This ensures that they can’t be transacted on in the M-RETS system. Before a Market Participant can remove certificates from the Market Account they must be set to unencumbered. Only the Market Admin can return Certificates to and “unencumbered” status. 
+
+3. When a sale is completed in the external market, the Market Administrator has the ability to conduct a “Market Transaction” in the M-RETS. This includes creating a seamless transaction that sends Certificates from the Seller to the Market Admin, then from Market Admin to the buyer. Structuring the Market Transaction in this way gives the Market Administrator the ability to expose or not the identities of the buyer and seller in any transaction. 
+
+Purchased RECs would be deposited into the designated Active RECs account of the purchasing party. The status of these RECs would be returned to “active” and they would no longer be available for sale.
+
+
+## 1. Invite Market Participants
+
+### Get all Organizations
+
+The M-RETS public Organization report will return a list of all active organizations in the system. From this endpoint, the ID of a specific Organization can be retrieved.
+
+GET v1/public/organizations
+
+	GET v1/public/..,
+	
+### Invite Participants
+
+	POST v1/public/...
+	
+##### Example
+```json
+{
+ 
+}
+```
+##### Response
+```json
+{
+
+}
+```
+
+### Get all active Participants
+
+	GET v1/public/..,
+	
+##### Example
+```json
+{
+ 
+}
+```
+##### Response
+```json
+{
+
+}
+```
+
+
+## 2. Encumber/Unencumber a Certificate Quantity
+
+### Get All RECs 
+
+The general `GET RECs` call for a Market Admin will return all RECs in the M-RETS that are in any of the Market's Participants' Market Accounts.
+
+	GET v1/public/..,
+	
+##### Example
+```json
+{
+ 
+}
+```
+##### Response
+```json
+{
+
+}
+```
+
+### GET RECs from a Participant's dedicated Market Account
+
+To return only the Certificates from a specific Participant's dedicated Market Account:
+
+	GET v1/public/..,
+	
+##### Example
+```json
+{
+ 
+}
+```
+##### Response
+```json
+{
+
+}
+```
+
+### Encumber/Unencumber a Certificate Quantity
+
+When a Participant transfers certificates into the Market Account, they will by default have a status of `unencumbered`. To update this status for the purposes of posting the certificates on an external market:
+
+	PUT v1/public/..,
+	
+##### Example
+```json
+{
+ 
+}
+```
+##### Response
+```json
+{
+
+}
+```
+
+## 3. Create a Market Transaction
+
+### Notes About the Entity
 
 Transfers in the M-RETS system are represented on a basic level by User Transactions and Transaction Details. The User Transaction captures important information about the transfer such as the transaction type, date the transaction was started/completed, and who started/completed the transaction.
 
@@ -26,25 +145,6 @@ A transfer User Transaction could have one or many associated transaction detail
 Market transfers only involve one step. A user initiates a transfer and it will immediately be completed requiring no additional steps.
 
 The market transfer will deposited the certificates on the receiving organization's Purchased account.
-
-## Invite Market Participants
-
-### Get all Organizations
-
-The M-RETS public Organization report will return a list of all active organizations in the system. From this endpoint, the ID of a specific Organization can be retrieved.
-
-GET v1/public/organizations
-
-### Get all active Participants
-
-## Get RECs from a Participant's dedicated Market Account
-
-
-## Encumber/Unencumber a Certificate Quantity
-
-
-
-## Create a Market Transaction
 
 ### Drafting a transaction
 

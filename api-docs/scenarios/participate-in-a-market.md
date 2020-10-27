@@ -2,235 +2,80 @@
 
 ## Use Case
 
-There is one type of certificate transfers:
-* A market transfer from one organization to another. User denoting a sale or change in ownership.
+By joining a Market on the M-RETS platform, users can seamlessly participate in an external spot market. T
+ 
 
-## Notes About the Entity
+## Process
 
-Transfers in the M-RETS system are represented on a basic level by User Transactions and Transaction Details. The User Transaction captures important information about the transfer such as the transaction type, date the transaction was started/completed, and who started/completed the transaction.
+1. From the Participant’s perspective, the process will begin when they receive an invite from the Market Administrator. They can either accept or reject the invite.
 
-A transfer User Transaction could have one or many associated transaction details that represent the individual certificate quantities that were involved in the transaction. So say in the UI, a user were to select 3 rows and complete an Market Transfer, that User Transaction would have three associated Transaction Details.
+2. If the Participant accepts, two dedicated accounts will be created in the Participant’s organizations:  a Market account and a designated purchased RECs account. To make Certificates eligible to be posted to a Market, a Participant will need to move the Certificates to the Market Account.
 
-Market transfers only involve one step. A user initiates a transfer and it will immediately be completed requiring no additional steps.
+While in this account, the Certificates are visible to the Market Administrator and can be posted on the external market. To ensure Certificates are not transacted on while posted on an external market, in the M-RETS the Market Admin will apply the status of "encumbered". While Certificates are encumbered, they are not eligible for any other kind of transaction in the M-RETS. 
 
-The market transfer will deposited the certificates on the receiving organization's Purchased account.
+From here, the Certificates will either be sold and automatically transferred to the buyer’s Organization, or the Participant can coordinate with the Market Admin to have Certificates “unencumbered”. Once Certificates are “unencumbered”, the Participant is free to move the Certificates from the Market Account and they are eligible again for any kind of transaction.
 
-## Adding Market Participants
+## 1. Accept a Market Invite
 
-### Drafting a transaction
+An invite notification will be received via email and a notification will be visible on the dashboard view when a user logs into the M-RETS. 
 
-All transactions are initiated in the same way.
+To accept the invite via API:
 
-    POST v1/public/user_transactions
+
+    POST v1/public/
 
 ##### Example
 ```json
 {
-  "data": {
-    "type": "user_transactions",
-    "attributes": {
-      "transaction_type": "market transfer"
-    }
-  }
+
 }
 ```
 ##### Response
     Status: 201 Created
 ```json
 {
-  "data": {
-    "id": "<transaction uuid>",
-    "type": "user_transactions",
-    "links": {...},
-    "attributes": {
-      "transaction_type": "market transfer",
-      "status": "draft",
-      "created_at": "2020-01-01T00:00:00Z",
-      "updated_at": "2020-01-01T00:00:00Z",
-      "retirement_type": null,
-      "started_at": null,
-      "ended_at": null,
-      "compliance_period": null,
-      "retired_to": null,
-      "notes": null,
-      "retired_quarter": null,
-      "retirement_reason": null
-    },
-    "relationships": [...]
-  }
+  
 }
 ```
+## Move Certificates to a Market Account
 
-### Specifying the Transaction Type
+To move certificates into the Market account and make them eligible to be posted onto an external market, the Participant needs to simply complete an internal transaction.
 
-For an market transfer, the transaction type should be `market transfer`.
+### GET Accounts to identify Market Account
 
-```json
-  "transaction_type": "market transfer"
-```
+The Market Account will contain the name of the spot Market.
 
-### Creating Transaction Details
-
-Transaction Details can be created into that draft User Transaction.
-
-    POST v1/public/transaction_details
+    GET v1/public/accounts
 
 ##### Example
 ```json
 {
-  "data": {
-    "type": "transaction_details",
-    "attributes": {
-      "serial_number_start": 1,
-      "serial_number_end": 100
-    },
-    "relationships": {
-      "user_transaction": {
-        "data": {
-          "type": "user_transactions",
-          "id": "<transaction uuid>"
-        }
-      },
-      "to_organization": {
-        "data": {
-          "type": "organizations",
-          "id": "<to organization uuid>"
-        }
-      },
-      "certificate": {
-        "data": {
-          "type": "certificates",
-          "id": "<certificate uuid>"
-        }
-      }
-    }
-  }
+ 
 }
 ```
 ##### Response
     Status: 201 Created
 ```json
 {
-  "data": {
-    "id": "...",
-    "type": "transaction_details",
-    "links": {...},
-    "attributes": {
-      "serial_number_start": 1,
-      "serial_number_end": 100,
-      "quantity": 100,
-      "created_at": "2020-01-01T00:00:00Z",
-      "updated_at": "2020-01-01T00:00:00Z"
-    },
-    "relationships": [...]
-  }
+
 }
 ```
 
-### Selecting Certificates
+### Initiating an Internal Transfer
 
 One or many Certificate are specified. To view what the possible options are, the full list of Certificates with Active Certificate Quantities can be retrieved with this call:
 
-    GET /v1/public/certificate_quantities?filter[status]=active&include=certificate
+#### Example
 
-The available certificates come from the "For Sale" accounts of a participant organization.
-
-##### Response
-    Status: 200 OK
-```json
-{
-  "data": [
-    {
-      "id": "...",
-      "type": "certificate_quantities",
-      "links": {...},
-      "attributes": {
-        "quantity": 100,
-        "serial_number_end": 100,
-        "serial_number_start": 1,
-        "serial_number_base": "...",
-        "rrc_quantity": "...",
-        "status": "active",
-        "created_at": "2020-01-01T00:00:00Z",
-        "updated_at": "2020-01-01T00:00:00Z"
-      },
-      "relationships": {
-        "account": {...},
-        "certificate": {
-          "links": {...},
-          "data": {
-            "type": "certificates",
-            "id": "<certificate uuid>"
-          }
-        },
-        "transaction_detail": {...}
-      }
-    },
-    {...}
-  ]
-}
-```
-
-Then select an Certificate and include it in a post call like this:
-
-```json
-"certificate": {
-  "data": {
-    "type": "certificates",
-    "id": "<certificate uuid>"
-  }
-}
-```
-
-### Specifying the Receiving Party
-
-The destination on an market transfer should one within the participant Organizations of the market. To view what the possible options are, the full list of participant Organizations can be retrieved with this call:
-
-    POST /v1/public/organizations?filter[participates_in_market]=<market program uuid>
-
-Find your Market's program uuid with this call:
-
-    GET /v1/public/programs?filter[is_market]=true
+    POST ....
 
 ##### Response
     Status: 200 OK
 ```json
 {
-  "data": [
-    {
-      "id": "<organization uuid>",
-      "type": "organizations",
-      "links": {...},
-      "attributes": {
-        "name": "...",
-        "resource_type": "rec",
-        "account_type": "...",
-        "organization_type": "...",
-        "organization_subtype": "...",
-        "created_at": "2020-01-01T00:00:00Z",
-        "updated_at": "2020-01-01T00:00:00Z"
-      },
-      "relationships": [...]
-    },
-    {...}
-  ]
+
 }
 ```
-
-Then select an Organization and include it in a post call like this:
-
-```json
-"to_organization": {
-  "data": {
-    "type": "organizations",
-    "id": "<organization uuid>"
-  }
-}
-```
-
-The M-RETS platform also sends out email notifications to the both sending organization and receiving organization.
-
-Email notification settings can be viewed and updated in the M-RETS user interface by clicking on the Org in the upper right corner, then navigating to the User table.
 
 ### Enqueue Transaction
 
