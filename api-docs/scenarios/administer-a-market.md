@@ -2,28 +2,25 @@
 
 ## Use Case
 
-The Market Administrator functionality was desinged to support third parties who would like to provide a spot market service to users on the M-RETS.
+The Market Administrator functionality was designed to support third parties spot markets on the M-RETS.
 
-To read more about the Market Admin feature, see our help article [here](link). To Register as Market Admin, please see our help article [here](link) and contact the System Admin.
+To Register as Market Admin, please contact the System Admin.
 
-Market Administrators have several endpoints designed to meet their needs:
+M-RETS has developed several endpoints specifically designed to meet Market Administrator's needs:
 * Get all active Participants
-* GET RECs
+* GET RECs (Market eligible
 * Create a Market Transaction
-
-There is one type of certificate transfers:
-* A market transfer from one organization to another. User denoting a sale or change in ownership.
 
 ## Process
 The Market Administrator establishes a new “Market”. The Market Administrator must have their Participant Terms of Use approved by M-RETS and available for Participants to review at any time. See Operating Procedures for further details on the sign-up process, permissions, and other policies related to this account type in the M-RETS.
 
-1. The Market Administrator has the ability to invite an unlimited number of participants to this Market. The list of Participants would be visible to the Market Administrator and they would have the ability to add or remove Participants at any time.
+1. The Market Administrator has the ability to invite an unlimited number of participants to this Market. Currently this part of the process is completed through the M-RETS interface. The Market Admin can select who to send invites to from a list of organizations in the M-RETS. The invites trigger email notifications for both parties. Participants can accept the invitation by logging into the M-RETS and clicking "Accept" on the notification. The list of Participants who have accepted the invite is available via API to the Market Administrator.
 
-2. Upon accepting an invite to a Market, a special active Market Account would be automatically created for the Participant as well as a designated account where purchased RECs will be deposited. Participants can transfer Certificates to the designated Market Account. While in this special account, they by default have the status of “unencumbered”, but have the option of being toggled to “encumbered” While in this account, the certificates are visible to the Market Administrator and become available to be posted to the external market platform.
+2. Upon accepting an invite to a Market, a special active Market Account would be automatically created for the Participant as well as a designated account where purchased RECs will be deposited. Participants can transfer Certificates to the designated Market Account. This is completed as a standard Internal Transafer. While in this account, the certificates are visible to the Market Administrator and become available to be posted to the external market platform. The Certificates by default have the status of “unencumbered”, but when the Market Administrator wants to post them on an external platform, they can update the status via API to “encumbered”. 
 
 While posted on the external market, it is the Market Administrator’s responsibility to ensure Certificates have been set to “encumbered”. This ensures that they can’t be transacted on in the M-RETS system. Before a Market Participant can remove certificates from the Market Account they must be set to unencumbered. Only the Market Admin can return Certificates to and “unencumbered” status.
 
-3. When a sale is completed in the external market, the Market Administrator has the ability to conduct a “Market Transaction” in the M-RETS. This includes creating a seamless transaction that sends Certificates from the Seller to the Market Admin, then from Market Admin to the buyer. Structuring the Market Transaction in this way gives the Market Administrator the ability to expose or not the identities of the buyer and seller in any transaction.
+3. When a sale is completed in the external market, the Market Administrator has the ability to conduct a “Market Transaction” in the M-RETS via API. This includes creating a seamless transaction that sends Certificates from the Seller to the Market Admin, then from Market Admin to the buyer. Structuring the Market Transaction in this way gives the Market Administrator the ability to expose or not the identities of the buyer and seller in any transaction.
 
 Purchased RECs would be deposited into the designated Active RECs account of the purchasing party. The status of these RECs would be returned to “active” and they would no longer be available for sale.
 
