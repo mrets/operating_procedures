@@ -15,28 +15,7 @@ While in this account, the Certificates are visible to the Market Administrator 
 
 From here, the Certificates will either be sold and automatically transferred to the buyer’s Organization, or the Participant can coordinate with the Market Admin to have Certificates “unencumbered”. Once Certificates are “unencumbered”, the Participant is free to move the Certificates from the Market Account and they are eligible again for any kind of transaction.
 
-## 1. Accept a Market Invite
-
-An invite notification will be received via email and a notification will be visible on the dashboard view when a user logs into the M-RETS.
-
-To accept the invite via API:
-
-
-    POST v1/public/
-
-##### Example
-```json
-{
-
-}
-```
-##### Response
-    Status: 201 Created
-```json
-{
-
-}
-```
+## 1. After accepting a Market Invite
 
 ## Move Certificates to a Market Account
 

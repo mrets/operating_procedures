@@ -7,10 +7,8 @@ The Market Administrator functionality was desinged to support third parties who
 To read more about the Market Admin feature, see our help article [here](link). To Register as Market Admin, please see our help article [here](link) and contact the System Admin.
 
 Market Administrators have several endpoints designed to meet their needs:
-* Invite Participants
 * Get all active Participants
 * GET RECs
-* Encumber/Unencumber a Certificate Quantity
 * Create a Market Transaction
 
 There is one type of certificate transfers:
@@ -29,10 +27,7 @@ While posted on the external market, it is the Market Administrator’s responsi
 
 Purchased RECs would be deposited into the designated Active RECs account of the purchasing party. The status of these RECs would be returned to “active” and they would no longer be available for sale.
 
-
-## 1. Invite Market Participants
-
-This part of the process needs to be completed from the UI.
+## 1. Market Participants
 
 ### Get all active Participants
 
@@ -140,10 +135,6 @@ To return only the Certificates from a specific Participant's dedicated Market A
   ]
 }
 ```
-
-### Encumber/Unencumber a Certificate Quantity
-
-This part of the process needs to be completed from the UI.
 
 ## 3. Create a Market Transaction
 
