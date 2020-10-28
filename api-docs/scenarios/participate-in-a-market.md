@@ -2,8 +2,8 @@
 
 ## Use Case
 
-By joining a Market on the M-RETS platform, users can seamlessly participate in an external spot market. T
- 
+By joining a Market on the M-RETS platform, users can seamlessly participate in an external spot market.
+
 
 ## Process
 
@@ -11,13 +11,13 @@ By joining a Market on the M-RETS platform, users can seamlessly participate in 
 
 2. If the Participant accepts, two dedicated accounts will be created in the Participant’s organizations:  a Market account and a designated purchased RECs account. To make Certificates eligible to be posted to a Market, a Participant will need to move the Certificates to the Market Account.
 
-While in this account, the Certificates are visible to the Market Administrator and can be posted on the external market. To ensure Certificates are not transacted on while posted on an external market, in the M-RETS the Market Admin will apply the status of "encumbered". While Certificates are encumbered, they are not eligible for any other kind of transaction in the M-RETS. 
+While in this account, the Certificates are visible to the Market Administrator and can be posted on the external market. To ensure Certificates are not transacted on while posted on an external market, in the M-RETS the Market Admin will apply the status of "encumbered". While Certificates are encumbered, they are not eligible for any other kind of transaction in the M-RETS.
 
 From here, the Certificates will either be sold and automatically transferred to the buyer’s Organization, or the Participant can coordinate with the Market Admin to have Certificates “unencumbered”. Once Certificates are “unencumbered”, the Participant is free to move the Certificates from the Market Account and they are eligible again for any kind of transaction.
 
 ## 1. Accept a Market Invite
 
-An invite notification will be received via email and a notification will be visible on the dashboard view when a user logs into the M-RETS. 
+An invite notification will be received via email and a notification will be visible on the dashboard view when a user logs into the M-RETS.
 
 To accept the invite via API:
 
@@ -34,9 +34,10 @@ To accept the invite via API:
     Status: 201 Created
 ```json
 {
-  
+
 }
 ```
+
 ## Move Certificates to a Market Account
 
 To move certificates into the Market account and make them eligible to be posted onto an external market, the Participant needs to simply complete an internal transaction.
@@ -45,19 +46,39 @@ To move certificates into the Market account and make them eligible to be posted
 
 The Market Account will contain the name of the spot Market.
 
-    GET v1/public/accounts
+    GET /v1/public/accounts?filter[account_type]=market&filter[status]=open
 
-##### Example
+##### Response
+    Status: 200 OK
 ```json
 {
- 
+  "data": [
+    {
+      "id": "<account uuid>",
+      "type": "accounts",
+      "links": {...},
+      "attributes": {
+        "name": "...",
+        "status": "open",
+        "account_type": "active",
+        "created_at": "2020-01-01T00:00:00Z",
+        "updated_at": "2020-01-01T00:00:00Z"
+      },
+      "relationships": [...]
+    },
+    ...
+  ]
 }
 ```
-##### Response
-    Status: 201 Created
-```json
-{
 
+Then select an Market Account and include it in a post call like this:
+
+```json
+"to_account": {
+  "data": {
+    "type": "accounts",
+    "id": "<account uuid>"
+  }
 }
 ```
 
@@ -67,15 +88,55 @@ One or many Certificate are specified. To view what the possible options are, th
 
 #### Example
 
-    POST ....
+    GET /v1/public/certificate_quantities?filter[status]=active&include=certificate
 
 ##### Response
     Status: 200 OK
 ```json
 {
-
+  "data": [
+    {
+      "id": "...",
+      "type": "certificate_quantities",
+      "links": {...},
+      "attributes": {
+        "quantity": 100,
+        "serial_number_end": 100,
+        "serial_number_start": 1,
+        "serial_number_base": "...",
+        "rrc_quantity": "...",
+        "status": "active",
+        "created_at": "2020-01-01T00:00:00Z",
+        "updated_at": "2020-01-01T00:00:00Z"
+      },
+      "relationships": {
+        "account": {...},
+        "certificate": {
+          "links": {...},
+          "data": {
+            "type": "certificates",
+            "id": "<certificate uuid>"
+          }
+        },
+        "transaction_detail": {...}
+      }
+    },
+    {...}
+  ]
 }
 ```
+
+Then select an Certificate and include it in a post call like this:
+
+```json
+"certificate": {
+  "data": {
+    "type": "certificates",
+    "id": "<certificate uuid>"
+  }
+}
+```
+
 
 ### Enqueue Transaction
 

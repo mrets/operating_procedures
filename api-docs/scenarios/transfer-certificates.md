@@ -193,7 +193,7 @@ Then select an Certificate and include it in a post call like this:
 
 The destination on an internal transfer should one or many Active Accounts within the same organization. To view what the possible options are, the full list of Open Active Accounts can be retrieved with this call:
 
-    POST /v1/public/accounts?filter[account_type]=active&filter[status]=open
+    GET /v1/public/accounts?filter[account_type]=active&filter[status]=open
 
 ##### Response
     Status: 200 OK
