@@ -10,8 +10,8 @@
 | Compliance Period             | compliance_period                 | The year for which a certificate was retired.                                                                                                 |
 | Retirement Type               | retirement_type                   | The primary classification of a retirement.                                                                                                   |
 | Retirement Reason             | retirement_reason                 | The sub classification of a retirement                                                                                                        |
-| Is Multi Account Destiantion? | is_multi_account_destination      | Flag for a transaction to multiple internal accounts                                                                                          |
+| Is Multi Account Destiantion? | `is_multi_account_destination`      | Flag for a transaction to multiple internal accounts                                                                                          |
 | User                          | relationship: user                | The user that initializes a transaction.                                                                                                      |
-| Ended By User                 | relationship: ended_by_user       | The user that completes a transaction.                                                                                                        |
+| Ended By User                 | relationship: `ended_by_user`       | The user that completes a transaction.                                                                                                        |
 | Transaction Details           | relationship: transaction_details | The associated quantities included in the transaction. Includes the specific start and end serial numbers for specifc certificate quantities. |
 | Retirement Options            | relationship: retirement_options  | The associated retirement information. Only relevant for retirement transactions.                                                             |

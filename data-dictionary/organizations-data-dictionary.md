@@ -6,7 +6,7 @@
 | Organization Type          | organization_type             | Business category of an organization                                                                             |   |
 | Organization Sub Type      | organization_subtype          | Business sub category of an organization                                                                         |   |
 | Account Type               | account_type                  | The subscription tier the organization is registered for.                                                        |   |
-| Subscription Renewal Month | subscription_renewal_month    | Month the invoice for subscription renewals is sent.                                                             |   |
+| Subscription Renewal Month | `subscription_renewal_month`    | Month the invoice for subscription renewals is sent.                                                             |   |
 | Resource Type              | resource_type                 | Denotes if organization is registered as an electricty or thermal system subscriber                              |   |
 | Contact                    | relationship: contact         | The primary way M-RETS will contact a subscriber organization.                                                   |   |
 | Billing Contact            | relationship: billing_contact | The information that will be used for sending invoices.                                                          |   |
