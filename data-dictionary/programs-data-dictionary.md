@@ -5,7 +5,7 @@
 | Close Date                | close_date                           | Optional close date is the last day retirements can be completed for this program. Beyond this date, program retirement accounts are set to "frozen". |
 | Is Internal?              | is_internal                          | This flag specifies if a program is for internal use only and does not have any outside participant organizations.                                    |
 | Is Voluntary?             | is_voluntary                         | This flag specifies if a program is for a voluntary purpose and is not to meet a compliance requirement.                                              |
-| Account Naming Convention | `account_naming_convention`            | This optional field is to help program administrators communicate  to participants any formating requests for the naming of accounts.                 |
+| Account Naming Convention | account\_naming\_convention            | This optional field is to help program administrators communicate  to participants any formating requests for the naming of accounts.                 |
 | Vintage Start             | vintage_start                        | This month is the earliest vintage of certificates eligible to be retired for a program.                                                              |
 | Vintage End               | vintage_end                          | This month is the latest vintage of certificates eligible to be retired for a program.                                                                |
 | Fuel Types                | fuel_types                           | List of fuel types. If present, RECs retired for this program must have a fuel type present in this list.                                             |
