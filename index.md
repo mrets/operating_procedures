@@ -1759,7 +1759,7 @@ At the time of publication, the M-RETS Board of Directors included:
 | JET | Jet  | false | false |
 | MS1 | Municipal solid Waste  | true | false |
 | NG1 | Natural Gas  | false | false |
-| NRA | Non-Renewable Additives  | true | false |
+| NRA | Non-Renewable Additives  | false | false |
 | NON | Not Listed - Contact the M-RETS Administrator  | false | false |
 | NU1 | Nuclear  | false | false |
 | OIL | Oil  | false | false |
