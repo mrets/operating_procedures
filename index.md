@@ -1712,7 +1712,7 @@ At the time of publication, the M-RETS Board of Directors included:
 
 ### Fuel Type
 
-| **Fuel Type(Short Description)** | **Fuel Type(Long Description)** | **Renewable?(true|false)** | **Biomass?(true|false)** |
+| **Fuel Type(Short Description)** | **Fuel Type(Long Description)** | **Renewable?(true/false)** | **Biomass?(true/false)** |
 | --- | --- | --- | --- |
 | ARS | Air Source  | true | false |
 | ALT | Alternate Use  | true | false |
