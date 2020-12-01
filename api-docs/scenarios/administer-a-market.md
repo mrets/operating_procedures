@@ -16,9 +16,7 @@ The Market Administrator establishes a new “Market”. The Market Administrato
 
 1. The Market Administrator has the ability to invite an unlimited number of participants to this Market. Currently this part of the process is completed through the M-RETS interface. The Market Admin can select who to send invites to from a list of organizations in the M-RETS. The invites trigger email notifications for both parties. Participants can accept the invitation by logging into the M-RETS and clicking "Accept" on the notification. The list of Participants who have accepted the invite is available via API to the Market Administrator.
 
-2. Upon accepting an invite to a Market, a special active Market Account would be automatically created for the Participant as well as a designated account where purchased RECs will be deposited. Participants can transfer Certificates to the designated Market Account. This is completed as a standard Internal Transafer. While in this account, the certificates are visible to the Market Administrator and become available to be posted to the external market platform. The Certificates by default have the status of “unencumbered”, but when the Market Administrator wants to post them on an external platform, they can update the status via API to “encumbered”. 
-
-While posted on the external market, it is the Market Administrator’s responsibility to ensure Certificates have been set to “encumbered”. This ensures that they can’t be transacted on in the M-RETS system. Before a Market Participant can remove certificates from the Market Account they must be set to unencumbered. Only the Market Admin can return Certificates to and “unencumbered” status.
+2. Upon accepting an invite to a Market, a special active Market Account would be automatically created for the Participant as well as a designated account where purchased RECs will be deposited. Participants can transfer Certificates to the designated Market Account. This is completed as a standard Internal Transafer. While in this account, the certificates are visible to the Market Administrator and become available to be posted to the external market platform. The Certificates by default have the status of “unencumbered”, but when the Market Administrator wants to post them on an external platform, they can update the status via API to “encumbered”. While posted on the external market, it is the Market Administrator’s responsibility to ensure Certificates have been set to “encumbered”. This ensures that they can’t be transacted on in the M-RETS system. Before a Market Participant can remove certificates from the Market Account they must be set to unencumbered. Only the Market Admin can return Certificates to and “unencumbered” status.
 
 3. When a sale is completed in the external market, the Market Administrator has the ability to conduct a “Market Transaction” in the M-RETS via API. This includes creating a seamless transaction that sends Certificates from the Seller to the Market Admin, then from Market Admin to the buyer. Structuring the Market Transaction in this way gives the Market Administrator the ability to expose or not the identities of the buyer and seller in any transaction.
 
@@ -133,13 +131,31 @@ To return only the Certificates from a specific Participant's dedicated Market A
 }
 ```
 
+### Update Encumbered / Unencumbered Status of a Certificate Quantity
+
+By default, a certificate quantity when placed in a Market account will be have a status of `unencumbered`. When the Market Admin is ready to post a certificate quantity on an external system, the certificate quantity status should be updated to `encumbered`.
+
+    PUT v1/public/....
+    
+#### Example
+```json
+{
+ 
+}
+```
+##### Response
+    Status: 201 Created
+```json
+{
+
+}
+```
+	
 ## 3. Create a Market Transaction
 
-### Notes About the Entity
+Transfers in the M-RETS system are represented on a basic level by User Transactions and Transaction Details. The User Transaction captures important information about the transfer such as the transaction type, date the transaction was started/completed, and who started/completed the transaction. 
 
-Transfers in the M-RETS system are represented on a basic level by User Transactions and Transaction Details. The User Transaction captures important information about the transfer such as the transaction type, date the transaction was started/completed, and who started/completed the transaction.
-
-A transfer User Transaction could have one or many associated transaction details that represent the individual certificate quantities that were involved in the transaction. So say in the UI, a user were to select 3 rows and complete an Market Transfer, that User Transaction would have three associated Transaction Details.
+A `transfer` User Transaction could have one or many associated transaction details that represent the individual certificate quantities that were involved in the transaction. So say in the UI, a user were to select 3 rows and complete an Market Transfer, that User Transaction would have three associated Transaction Details.
 
 Market transfers only involve one step. A user initiates a transfer and it will immediately be completed requiring no additional steps.
 
@@ -151,7 +167,7 @@ All transactions are initiated in the same way.
 
     POST v1/public/user_transactions
 
-##### Example
+#### Example
 ```json
 {
   "data": {
@@ -203,7 +219,7 @@ Transaction Details can be created into that draft User Transaction.
 
     POST v1/public/transaction_details
 
-##### Example
+#### Example
 ```json
 {
   "data": {
@@ -235,7 +251,7 @@ Transaction Details can be created into that draft User Transaction.
   }
 }
 ```
-##### Response
+#### Response
     Status: 201 Created
 ```json
 {
@@ -263,7 +279,7 @@ One or many Certificate are specified. To view what the possible options are, th
 
 The available certificates come from the "For Sale" accounts of a participant organization.
 
-##### Response
+#### Response
     Status: 200 OK
 ```json
 {
