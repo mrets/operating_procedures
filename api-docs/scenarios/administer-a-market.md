@@ -8,7 +8,8 @@ To Register as Market Admin, please contact the System Admin.
 
 M-RETS has developed several endpoints specifically designed to meet Market Administrator's needs:
 * Get all active Participants
-* GET RECs (Market eligible
+* GET RECs (Market eligible)
+* Update Certificate Quantity status to encumbered to prevent transactions in the M-RETS system
 * Create a Market Transaction
 
 ## Process
