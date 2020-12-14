@@ -15,7 +15,86 @@ While in this account, the Certificates are visible to the Market Administrator 
 
 From here, the Certificates will either be sold and automatically transferred to the buyer’s Organization, or the Participant can coordinate with the Market Admin to have Certificates “unencumbered”. Once Certificates are “unencumbered”, the Participant is free to move the Certificates from the Market Account and they are eligible again for any kind of transaction.
 
-## 1. After accepting a Market Invite
+## Retrieving all Market Invites
+
+To view all available invites, the full list of ProgramParticipantInvites can be retrieved with this call:
+
+    GET /v1/public/program_participant_invites?filter[program_type]=market
+
+##### Response
+    Status: 200 OK
+```json
+{
+  "data": [
+    {
+      "id": "<program_participant_invites uuid>",
+      "type": "program_participant_invites",
+      "links": {...},
+      "attributes": {
+          "created_at": "2020-12-11T16:06:03Z",
+          "answer": "accepted",
+          "answered_at": "2020-12-11T16:08:32Z"
+      },
+      "relationships": [...]
+    },
+    ...
+  ]
+}
+```
+
+## Accept/Reject a Market Invite
+
+To accept a market invite:
+
+    POST /v1/public/program_participant_invites/<program_participant_invites uuid>/accept
+
+##### Response
+    Status: 200 OK
+```json
+{
+  "data": [
+    {
+      "id": "<program_participant_invites uuid>",
+      "type": "program_participant_invites",
+      "links": {...},
+      "attributes": {
+          "created_at": "2020-12-11T16:06:03Z",
+          "answer": "accepted",
+          "answered_at": "2020-12-11T16:08:32Z"
+      },
+      "relationships": [...]
+    },
+    ...
+  ]
+}
+```
+
+To reject a market invite:
+
+    POST /v1/public/program_participant_invites/<program_participant_invites uuid>/reject
+
+##### Response
+    Status: 200 OK
+```json
+{
+  "data": [
+    {
+      "id": "<program_participant_invites uuid>",
+      "type": "program_participant_invites",
+      "links": {...},
+      "attributes": {
+          "created_at": "2020-12-11T16:06:03Z",
+          "answer": "rejected",
+          "answered_at": "2020-12-11T16:08:32Z"
+      },
+      "relationships": [...]
+    },
+    ...
+  ]
+}
+```
+
+## After accepting a Market Invite
 
 ## Move Certificates to a Market Account
 
