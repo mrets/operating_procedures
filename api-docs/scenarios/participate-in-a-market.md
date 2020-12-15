@@ -203,3 +203,12 @@ Once the draft transaction is completed it needs to be enqueued with this call:
     PUT /v1/public/user_transactions/<transaction uuid>/enqueue
 ##### Response
     Status: 200 OK
+
+
+### Leaving a Market
+
+To leave a Market first make sure there are no recs on the To Sell account:
+
+    POST /v1/public/programs/<market program uuid>/leave
+##### Response
+    Status: 200 OK
