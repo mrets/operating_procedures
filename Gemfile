@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', '~> 209', group: :jekll_plugins
+gem 'github-pages', '~> 210', group: :jekll_plugins
 gem 'jekyll', '~> 3.9'
 gem "kramdown", ">= 2.3.0"
 gem 'nokogiri', '~> 1.10', '>= 1.11.0.rc4'
