@@ -2,7 +2,7 @@
 
 The hourly retirement process embeds the hourly production data into the retirement claims process. This exciting achievement does more than just integrate hourly data into the claim. The process verifies that Certificate batches retired for hourly claims are whole and not split post issuance. The process allows for multiple batches to be retired at once and provides aggregate hourly data by hour, day, and month for the batches subject to the transaction.
 
-**M-RETS allows Hourly Claims only for intact (i.e. not subdivided after issuance) batches of Certificates. The following will render a batch of certificates ineligible for an hourly claim at this time:
+**M-RETS allows Hourly Claims only for intact (i.e. not subdivided after issuance) batches of Certificates. The following will render a batch of certificates ineligible for an hourly claim at this time:**
 
 1. Certificates that an Organization has separated into multiple active batches for any reason, even if they maintain ownership of all the RECs from the original issuance.
 
