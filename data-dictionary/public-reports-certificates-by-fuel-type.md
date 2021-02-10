@@ -1,6 +1,6 @@
 | Name | Data Field  | Description  |
 |---------------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Fuel Type|fuel_type|M-RETS' supported [Fuel Types](https://mrets.github.io/Operating-Procedures/appendixb1).|
+|Fuel Source|fuel_source|M-RETS' supported [Fuel Sources](https://mrets.github.io/Operating-Procedures/appendixb2).|
 |Total|total|The total amount of Renewable Energy Certificates ("RECs") issued, or created. One MWh of renewable energy generation = 1 REC.|
 |Transferred|transferred|The total amount of RECs transferred from one M-RETS Organzation to another M-RETS Orgnaization.|
 |Retired|retired|The total amount of RECs [retired](https://mrets.github.io/Operating-Procedures/section4.2.5), or claimed.|
