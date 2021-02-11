@@ -1,9 +1,3 @@
-## Generation Entry Line Summary
+# Generation Entry Line Overview
 
-## Generation Entry Line Validations
-
-[Alex update]
-
-## Generation Entry Line Resources
-
-[Sean put links to relevant sections in OPs]
+<i>See Generation Entries for a full overview of both Generation Entries and Generation Entry Lines</i>
