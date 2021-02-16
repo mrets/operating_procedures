@@ -6,7 +6,9 @@ The Generation History table in the M-RETS is a log of all generation entries in
 
 ## Notes About the Entity
 
+Generation Entries and Generation Entry Lines are used to model generation data in the M-RETS.  In the M-RETS UI, The Generation Entry Log is a list of Generation Entry Lines. Each time M-RETS receives generation data for a generator, the date and quantity of MWhs is posted to the Generation Log.
 
+The Generation Entry could have multiple Generation Entry Lines if, for example, a CSV upload was used to submit the data and it contained multiple lines of generation corresponding to different Generators.
 
 ## The Basic Call
 

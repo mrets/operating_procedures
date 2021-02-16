@@ -2,13 +2,13 @@
 
 ## Use Case
 
-The Transaction History is tab in the M-RETS system is a reverse chronological log of all activities including issuances, issuance rollbacks, internal transfers, external transfers, exports, imports, and retirements. Filters are provided to drill into this data by a wide array of data attributes. A user of the M-RETS system would look at the Transaction History table for a variety of reasons that could include viewing recent issuances, checking on status of transfers, or reviewing retirements from the past year.
+The Transaction History tab in the M-RETS system is a reverse chronological log of all events including issuances, issuance rollbacks, internal transfers, external transfers, exports, imports, and retirements. Filters are provided to drill into this data by a wide array of data attributes. A user of the M-RETS system would look at the Transaction History table for a variety of reasons that could include viewing recent issuances, checking on the status of transfers, or reviewing retirements from the past year.
 
 ## Notes About the Entity
 
-Events in the M-RETS system are represented on a basic level by User Transactions and Transaction Details. The User Transaction captures important information about the transaction such as the transaction type, date the transaction was started/completed, who started/completed the transaction, or, if the User Transaxction  was a retirement, it could contain important information about the claim made by the retirement.
+Events in the M-RETS are represented on a basic level by User Transactions and Transaction Details. The User Transaction captures important information about the transaction such as the transaction type, date the transaction was started/completed, who started/completed the transaction, or, if the User Transaction  was a retirement, it could contain important information about the claim made by the retirement.
 
-A User Transaction could have one or many associated transaction details that represent the individual certificate quantities that were involved in the transaction. So say in the UI, a user were to select 3 rows and complete and Internal Transfer, that User Transaction would have three associated Transaction Details.
+A User Transaction could have one or many associated transaction details that represent the individual certificate quantities that were involved in the transaction. So say in the UI, a user were to select 3 rows and complete an Internal Transfer, that User Transaction would have three associated Transaction Details.
 
 ## The Basic Call
 
