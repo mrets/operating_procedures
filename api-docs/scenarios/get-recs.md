@@ -92,4 +92,4 @@ The M-RETS API by default returns paginated results of 25 records. With a maximu
 
 ## For Market Administrator Organization
 
-Market Administrator Organizations do not own generators but have visibility on the participant organization's generators, given those generators issued recs that are for sell.
+Market Administrator Organizations do not own RECs but have visibility on the participant organization's active RECs in the participant's designated Market Admin account.
