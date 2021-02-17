@@ -2,8 +2,7 @@
 
 ## Use Case
 
-By joining a Market on the M-RETS platform, users can seamlessly participate in an external spot market.
-
+By joining a Market on the M-RETS platform, users can seamlessly participate in an external spot market. These examples are from the Participant's perspective.
 
 ## Process
 
@@ -15,11 +14,22 @@ While in this account, the Certificates are visible to the Market Administrator 
 
 From here, the Certificates will either be sold and automatically transferred to the buyer’s Organization, or the Participant can coordinate with the Market Admin to have Certificates “unencumbered”. Once Certificates are “unencumbered”, the Participant is free to move the Certificates from the Market Account and they are eligible again for any kind of transaction.
 
-## 1. After accepting a Market Invite
+## 1. Accept or Reject a Market Admin Invite
 
-## Move Certificates to a Market Account
+A Participant (logged in from their M-RETS organization or using their Organization API keys) will be able to accept or reject a pending Market invite. 
 
-To move certificates into the Market account and make them eligible to be posted onto an external market, the Participant needs to simply complete an internal transaction.
+## PUT Participant Invites
+
+    `PUT..... `
+    
+### Response
+
+Status: 200 OK
+```json
+{
+  
+}
+```
 
 ### GET Accounts to identify Market Account
 
@@ -31,26 +41,11 @@ The Market Account will contain the name of the spot Market.
     Status: 200 OK
 ```json
 {
-  "data": [
-    {
-      "id": "<account uuid>",
-      "type": "accounts",
-      "links": {...},
-      "attributes": {
-        "name": "...",
-        "status": "open",
-        "account_type": "active",
-        "created_at": "2020-01-01T00:00:00Z",
-        "updated_at": "2020-01-01T00:00:00Z"
-      },
-      "relationships": [...]
-    },
-    ...
-  ]
+  
 }
 ```
 
-Then select an Market Account and include it in a post call like this:
+Then use the Market Account ID while creating an intermal transaction. Include it in a post call like this:
 
 ```json
 "to_account": {
