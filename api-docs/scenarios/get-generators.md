@@ -6,7 +6,7 @@ A common task for many users of the M-RETS is viewing generator information.
 
 ## Notes About the Entity
 
-A generator is a complex entity including many relationships to other objects the system.
+Generators are any kind of facility that produces renewable energy. A Generator is a complex entity including many relationships to other objects the system.
 
 ## The Basic Call
 
@@ -87,6 +87,6 @@ The M-RETS API by default returns paginated results of 25 records. With a maximu
 
 Depending on if your organization owns a generator or not, different information may be returned. If you are seeking to view the details of a generator that your organization does not own, the data returned will be limited to only the data in our system that is classified as public.
 
-## For Market Administrator Organization
+## For Market Administrator Organizations
 
-Market Administrator Organizations do not own generators but have visibility on the participant organization's generators, given those generators issued recs that are for sell.
+Market Administrator Organizations do not own generators but have visibility to their participant organization's generators. The 'GET' Generators call for a Market Admin org will return all generators that issued RECs that are for sale by a participant organization.
