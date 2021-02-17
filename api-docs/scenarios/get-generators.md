@@ -81,6 +81,12 @@ View all of your generators located in Iowa:
 v1/public/generators?filter[state_province]=IA
 ```
 
+View Annual Production of your generators by year:
+
+```
+v1/public/generators?fields[generators]=annual_production&filter[annual_production]={select year}
+```
+
 ## Notes on Pagination / Limits / Permissions
 
 The M-RETS API by default returns paginated results of 25 records. With a maximun of 1000 records.
