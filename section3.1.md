@@ -8,26 +8,17 @@ M-RETS accepts payment in the form of checks, wire transfers, or ACH transfers. 
 
 Checks may be mailed to:
 
-Midwest Renewable Energy Tracking System, Inc.
+Midwest Renewable Energy Tracking System, Inc. <br>
+Lockbox 446023 <br>
+PO Box 64079 <br>
+St Paul, MN 55164-0703 (please always include the dash and 0703 after the zip code)
 
-PO Box 856556
-
-Minneapolis MN 55485-6556
-
-(please always include the dash and 6556 after the zip code)
-
-Wire transfers or ACH transfers may be routed to:
-
-Midwest Renewable Energy Tracking System, Inc.
-
-Bremer Bank
-
-225 6th Street South Suite 200
-
-Minneapolis, MN 55402
-
-USA
-
+Wire transfers or ACH transfers may be routed to: <br>
+Midwest Renewable Energy Tracking System, Inc. <br>
+Bremer Bank <br>
+225 6th Street South Suite 200 <br>
+Minneapolis, MN 55402 <br>
+USA <br>
 (Remittance Address and Routing Number can be found on the invoice)
 
 1. Fees must be paid in US dollars.
