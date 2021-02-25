@@ -8,6 +8,6 @@
 | Import Source          | import_source                        | The tracking system that exported the certificates if a quantity was imported from an external tracking system.                                                                                         |
 | Certificate Quantities | relationship: certificate_quantities | The associated batches of certificates that were part of the same issuance vintage. Starts as a single certificate quantity, then is split into smaller batches as the certificates are transacted on.  |   
 | Generator              | relationship: generator              | The generating facility that produced the certificate.|
-| Generation Entry    | relationship: generation_entry              | The generating facility that produced the certificate.|
+| Generation Entry    | relationship: generation_entry              | |
 | Generator Fuel         | relationship: generator_fuel         | The specific energy source ([Fuel Type](https://mrets.github.io/Operating-Procedures/appendixb1)) for the certificates.|
 | Eligibilities         | relationship: eligibilities         |The eligilibity tags on the Generator. These tags show which, if any, state/province RPS programs for which the Generator is eligible. |
