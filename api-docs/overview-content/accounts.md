@@ -20,4 +20,3 @@ An Active Account can be set to a status of ‘Closed’ when no longer needed. 
 When a Retirement Account is no longer needed, it can be set to a status of ‘Archived’. An ‘Archived’ status denotes the Account cannot accept further Retirements. Retired Certificates remain in an ‘Archived’ Account. This status only applies to Retirement Accounts. 
 When a Retirement Account is part of a Program that has closed, it is set to a status of ‘Frozen’. A ‘Frozen’ status denotes the Account cannot accept further Retirements. Retired Certificates remain in a ‘Frozen’ Account. This status only applies to Retirement Accounts. See the Programs entity for more information about this feature.
 
-## Resources
