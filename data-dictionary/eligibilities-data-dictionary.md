@@ -1,17 +1,17 @@
 | Name                                  | Data Field                | Description                                                                                           |   |
 |---------------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------|---|
-| Ecologo Certified                     | ecologo_certified         | Is this Generator Certified by EcoLogo?                                                               |   |
+| Ecologo Certified                     | ecologo_certified         | Is this Generator Certified by [EcoLogo](?                                                               |   |
 | Illinois ARES Eligibility             | illinois_ares             | Is this Generator Certified for the Illinois ARES Program?                                            |   |
-| Illinois Utility Eligibility          | illinois_utility          | Is this Generator Certified by the ICC to meet the IL Utility Program?                                |   |
-| Iowa Eligibility                      | iowa                      | Is this Generator Certified by the IUB for the Iowa RPS?                                              |   |
+| Illinois Utility Eligibility          | illinois_utility          | Is this Generator Certified by the ICC to meet the [IL Utility Program](http://www.ilga.gov/legislation/ilcs/ilcs5.asp?ActID=266&ChapAct=20%26nbsp%3BILCS%26nbsp%3B687%2F&ChapterID=5&ChapterName=EXECUTIVE+BRANCH&ActName=Renewable+Energy%2C+Energy+Efficiency%2C+and+Coal+Resources+Development+Law+of+1997%2E)?                                |   |
+| Iowa Eligibility                      | iowa                      | Is this Generator Certified by the IUB for the [Iowa RPS](https://www.legis.iowa.gov/docs/code/476.41.pdf)?                                              |   |
 | Iowa AEP Eligibility                  | iowa_aep                  | Is this Generator Certified by the IUB for the AEP Program?                                           |   |
 | Iowa Voluntary Green Eligibility      | iowa\_voluntary\_green      | Does this Generator meet the reqiurements/certification standards for the IA Voluntary Green Program? |   |
-| Manitoba Eligibility                  | manitoba                  | Does this Generator meet the requirements for Manitoba?                                               |   |
-| Minnesota Eligibility                 | minnesota                 | Does this Generator meet the Minnesota RPS Reqiurements?                                              |   |
+| Manitoba Eligibility                  | manitoba                  | Does this Generator meet the requirements for [Manitoba](https://www.gov.mb.ca/asset_library/en/climatechange/climategreenplandiscussionpaper.pdf)?                                               |   |
+| Minnesota Eligibility                 | minnesota                 | Does this Generator meet the [Minnesota RPS Reqiurements](https://www.revisor.mn.gov/statutes/cite/216B.2422)?                                              |   |
 | Minnesota SES Small Solar Eligibility | minnesota\_ses\_small\_solar | Does this Generator meet the Minnesota Small Solar Eligibility Requirements?                          |   |
-| Montana Eligibility                   | montana                   | Is this Generator Certified by the State of Montana for the RPS?                                      |   |
-| North Dakota Eligibility              | north_dakota              | Does this Generator meet the standards of the ND REO?                                                 |   |
-| Ohio Eligibility                      | ohio                      | Is this Generator Certified by the state of Ohio for the RPS?                                         |   |
-| South Dakota Eligibility              | south_dakota              | Does this Generator meet the standards of the state of SD?                                            |   |
-| Wisconsin: Bankable Eligibility       | wisconsin_bankable        | Does the Wisconsin PSC recognize this generator as bankable?                                          |   |
+| Montana Eligibility                   | montana                   | Is this Generator Certified by the State of [Montana for the RPS](https://leg.mt.gov/bills/mca/title_0690/chapter_0030/part_0200/sections_index.html)?                                      |   |
+| North Dakota Eligibility              | north_dakota              | Does this Generator meet the standards of the [ND REO](https://www.legis.nd.gov/cencode/t49c02.pdf)?                                                 |   |
+| Ohio Eligibility                      | ohio                      | Is this Generator Certified by the state of [Ohio for the RPS](http://codes.ohio.gov/oac/4901%3A1-40)?                                         |   |
+| South Dakota Eligibility              | south_dakota              | Does this Generator meet the standards of the [state of SD](https://sdlegislature.gov/Statutes/Codified_Laws/20707790?                                            |   |
+| Wisconsin: Bankable Eligibility       | wisconsin_bankable        | Does the [Wisconsin PSC](https://docs.legis.wisconsin.gov/statutes/statutes/196/378) recognize this generator as bankable?                                          |   |
 | Wisconsin: Non-bankable Eligibility   | wisconsin\_non\_bankable    | Does the Wisconsin PSC recognize this generator as non-bankable?                                      |   |
