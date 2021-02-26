@@ -10,4 +10,4 @@
 | Resource Type              | resource_type                 | Denotes if organization is registered as an electricty or thermal system subscriber                              |   |
 | Contact                    | relationship: contact         | The primary way M-RETS will contact a subscriber organization.                                                   |   |
 | Billing Contact            | relationship: billing_contact | The information that will be used for sending invoices.                                                          |   |
-| Contact                    | relationship: contact         | The primary way M-RETS will contact a subscriber organization.                                                   |   |
+| Accounts                    | relationship: accounts         | Active and Retirement accounts under this Organization.                                                   |   |
