@@ -3,7 +3,7 @@
 | Transaction Type              | transaction_type                  | The type of transaction.                                                                                                                      |
 | Started At                    | started_at                        | The timestamp created when a transaction was initiated                                                                                        |
 | Ended At                      | ended_at                          | The timestamp created when a transaction was completed.                                                                                       |
-| Status                        | status                            | The current state of the transaction.                                                                                                         |
+| Status                        | status                            | 'complete': <br>, 'pending': <br>, 'rejected': <br>, 'withdrawn': <br>, 'expired': <br>, 'failed': <br>, 'enqueued': <br>, 'draft': <br>|
 | Notes                         | notes                             | Any special comments included on the transaction to clarify purpose or any special steps taken by the administrator.                          |
 | Action                        | action                            |                                                                                                                                               |
 | Retired To                    | retired_to                        | State or province for which a retirement occured.                                                                                             |
