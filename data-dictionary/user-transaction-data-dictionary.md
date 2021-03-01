@@ -1,6 +1,6 @@
 | Name                          | Data Field                        | Description                                                                                                                                   |
 |-------------------------------|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-|Transaction Type|transaction_type|The type of transaction.|
+|Transaction Type|transaction_type|'issuance': <br> 'withdraw': <br> 'issuance_rollback': <br> 'internal_transfer': <br> 'external_transfer': <br> 'conversion': <br> 'retirement': <br> 'export': <br> 'unretirement': <br> 'import': <br> 'transfer': <br> 'market_transfer':|
 |Started At|started_at| The timestamp created when a transaction was initiated|
 |Ended At|ended_at|The timestamp created when a transaction was completed.|
 |Status|status|'complete': <br>'pending': <br>'rejected': <br>'withdrawn': <br>'expired': <br>'failed': <br>'enqueued': <br>'draft': <br>|
