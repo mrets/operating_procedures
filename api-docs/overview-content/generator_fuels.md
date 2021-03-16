@@ -1,9 +1,4 @@
-## Generator Fuel Summary
+# Generator Fuels
 
-## Generator Fuel Validations
+Generator Fuels associate a specific Generator to one or more Fuel Types. 
 
-[Alex update]
-
-## Generator Fuel Resources
-
-[Sean put links to relevant sections in OPs]
