@@ -1,5 +1,3 @@
 # Organizations Public Report Overview
 
-## Overview
-
-## Resources
+Our Public Organization Report consists of a list of all Organizations with an active subscription in the M-RETS. 
