@@ -1,5 +1,64 @@
 # Release Notes
 
+## March 25, 2020: v1.1.0
+
+Release of part 2 of our read endpoints. This release completes the availability of all of our 'GET' endpoints.
+
+Note all endpoints are available in our sandbox environment. When an endpoint is deemed ready for a stable release, the endpoint will be made available in production. 
+
+Stable endpoints in this intial release:
+
+### Entities and Endpoints
+
+#### Public Reports
+* GET /v1/public/reports/generators
+* GET /v1/public/reports/organizations
+
+#### Certificates
+* GET /v1/public/certificates/reports/{time_unit}
+
+#### Eligibilities
+* GET /v1/public/eligibilities
+* GET /v1/public/eligibilities/{id}
+
+#### Eligibility Bonds
+* GET /v1/public/eligibility_bonds
+
+#### Fuel Sources
+* GET /v1/public/fuel_types
+* GET /v1/public/fuel_types/{id}
+
+#### Fuel Types
+* GET /v1/public/fuel_types
+* GET /v1/public/fuel_types/{id}
+
+#### Generators
+* GET /v1/public/generators
+* GET /v1/public/generatiors/{id}
+
+#### Generator Fuels
+* GET /v1/public/generatior_fuels/{id}
+
+#### Organizations
+* GET /v1/public/organizations
+* GET /v1/public/organizations/{id}
+
+#### Programs
+* GET /v1/public/programs
+* GET /v1/public/programs/{id}
+
+#### Program Participant Invites
+* GET /v1/public/program_participant_invites
+* GET /v1/public/program_participant_invites/{id}
+
+#### Transaction Details
+* GET /v1/public/transactions_details
+* GET /v1/public/transactions_details/{id}
+
+#### User Transactions
+* GET /v1/public/user_transactions
+* GET /v1/public/user_transactions/{id}																										
+
 ## February 26, 2020: v1.0.0
 
 Initial release of stable API endpoints! 
