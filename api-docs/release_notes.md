@@ -1,5 +1,50 @@
 # Release Notes
 
+## May 13, 2020: v1.2.0
+
+Release of part 2 of our read endpoints. This release completes the availability of all of our 'GET' endpoints.
+
+Note all endpoints are available in our sandbox environment. When an endpoint is deemed ready for a stable release, the endpoint will be made available in production. 
+
+Stable endpoints in this release:
+
+### Entities and Endpoints
+
+#### Accounts
+* POST /v1/public/accounts
+* PUT /v1/public/accounts/{id}
+
+#### Contacts
+* POST /v1/public/contacts
+* PUT /v1/public/contacts/{id}
+
+#### Eligibility Bonds
+* POST /v1/public/eligibility_bonds 
+* DELETE /v1/public/eligibility_bonds/{id} 
+
+#### Generators
+* POST /v1/public/generatiors
+* PUT /v1/public/generatiors/{id}
+* POST /v1/public/generatiors/{id}/document
+
+#### Generator Fuels
+* POST /v1/public/generatior_fuels/{id}
+* PUT /v1/public/generatior_fuels/{id}
+* DELETE /v1/public/generatior_fuels/{id}
+
+#### Organizations
+* GET /v1/public/organizations
+* GET /v1/public/organizations/{id}
+
+#### Programs
+* GET /v1/public/programs
+* GET /v1/public/programs/{id}
+
+#### Program Participant Invites
+* POST /v1/public/program_participant_invites
+* POST /v1/public/program_participant_invites/{id}/cancel
+
+
 ## March 25, 2020: v1.1.0
 
 Release of part 2 of our read endpoints. This release completes the availability of all of our 'GET' endpoints.
