@@ -1,6 +1,6 @@
 | Name                                  | Data Field                | Description |
 |---------------------------------------|---------------------------|-------------|
-|Details|details||
+|Details|details|The details schema defined on the Eligibility. |
 |Eligible?|eligible|'True': This Generator is eligible for the related [Program](https://www.mrets.org/resources/statutes/). <br> 'False': This Generator is not eligible for the related Program.|
 |Start Date|start_date|The first date this Generator is eligible for the selected Program. *Note: If your Generator does not have an specific Start Date, use the Generator's online date.*|
 |Verified Date|verified_date|The date this Generator was approved for a specific Program. Leave this blank if there is no specific date.|
