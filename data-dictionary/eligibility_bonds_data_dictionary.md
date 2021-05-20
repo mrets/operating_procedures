@@ -6,4 +6,4 @@
 |Good Through|good_thru_date|The expiration date of this Generator's ability to participate in a specific Program.Leave this blank if there is no expiration date.|
 |Certification Number|certification_number|An identification number given by a Program Administrator. *Example: A WI PSC Order Number.*|
 |Eligibility|relationship:eligibility|The specific Program Eligiblity for which this Generator qualifies.|
-|Eligiblity Bondable|relationship:eligibility_bondable|'True':  <br> 'False':|
+|Eligiblity Bondable|relationship:eligibility_bondable|The Generator's Fuel.|
