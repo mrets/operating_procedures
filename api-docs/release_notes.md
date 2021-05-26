@@ -2,7 +2,7 @@
 
 ## May 13, 2020: v1.2.0
 
-Release of part 2 of our read endpoints. This release completes the availability of all of our 'GET' endpoints.
+Release of part one of our write endpoints. The second and final batch of write endpoints is scheduled or release in June. We excited to have our full API available for use by subscribers.
 
 Note all endpoints are available in our sandbox environment. When an endpoint is deemed ready for a stable release, the endpoint will be made available in production. 
 
