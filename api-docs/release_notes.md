@@ -1,5 +1,38 @@
 # Release Notes
 
+## June 24, 2020: v1.3.0
+
+Includes the final batch of write endpoints. Our entire REC API is now available for full use in prod to all active General Account subscribers.
+
+Another major update included in this release includes adding a resource namespace to all endpoints. This change was made in anticipation of our Renewable Thermal API which we have already begun work on in tandem with this final release of stable Renewable Electricity API endpoints. 
+
+Stable endpoints in this release:
+
+### Entities and Endpoints
+
+#### Certificate Quantities
+* PUT /v1/public/rec/certificates_quantities/{id}/encumber
+* PUT /v1/public/rec/certificates_quantities/{id}/unencumber
+
+#### Generation Entries
+* POST /v1/public/rec/generation_entries
+
+#### Generation Entry Lines
+* POST /v1/public/rec/generation_entry_lines
+* PUT /v1/public/rec/generation_entry_lines/{id}
+
+#### Transaction Details
+* POST /v1/public/rec/transaction_details 
+
+#### Transaction Details
+* POST /v1/public/rec/user_transactions
+* PUT /v1/public/rec/user_transactions/{id}
+* PUT /v1/public/rec/user_transactions/{id}/enqueue
+* PUT /v1/public/rec/user_transactions/{id}/withdraw
+* PUT /v1/public/rec/user_transactions/{id}/reject
+* PUT /v1/public/rec/user_transactions/{id}/accept
+
+
 ## May 13, 2020: v1.2.0
 
 Release of part one of our write endpoints. The second and final batch of write endpoints is scheduled or release in June. We excited to have our full API available for use by subscribers.
